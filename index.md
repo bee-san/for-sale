@@ -1,7 +1,7 @@
 ---
 layout: default
 title: For Sale
-description: Markdown sale items are grouped by status. Example listings are clearly labeled as drafts.
+description: Markdown sale items are grouped by status. Available items appear first, pending items are next, and sold items stay visible but collapsed.
 ---
 
 # For Sale
@@ -35,9 +35,9 @@ Markdown sale items are grouped by status below. Use the seller's public contact
 {% endif %}
 
 {% if sold_items.size > 0 %}
-<details>
-  <summary>Sold items</summary>
-  <div class="item-grid">
+<details class="sold-items">
+  <summary>Sold items ({{ sold_items.size }})</summary>
+  <div class="item-grid item-grid--sold">
     {% for item in sold_items %}
       {% include item-card.html item=item %}
     {% endfor %}
