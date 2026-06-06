@@ -1,0 +1,23 @@
+<article class="item-card item-card--{{ item.status | default: 'available' | downcase }}">
+  {% if item.image %}
+    <a class="item-card__image-link" href="{{ item.url | relative_url }}">
+      <img class="item-card__image" src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}">
+    </a>
+  {% endif %}
+
+  <div class="item-card__body">
+    <p class="item-card__status">{{ item.status | default: 'available' | capitalize }}</p>
+    <h2 class="item-card__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    <p class="item-card__price">{{ item.currency | default: '£' }}{{ item.price }}</p>
+
+    {% if item.condition %}
+      <p class="item-card__meta"><strong>Condition:</strong> {{ item.condition }}</p>
+    {% endif %}
+
+    {% if item.location_note %}
+      <p class="item-card__meta"><strong>Location note:</strong> {{ item.location_note }}</p>
+    {% endif %}
+
+    <p class="item-card__excerpt">{{ item.content | strip_html | strip_newlines | truncatewords: 28 }}</p>
+  </div>
+</article>

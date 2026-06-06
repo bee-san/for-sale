@@ -1,0 +1,19 @@
+title: For Sale
+description: Markdown sale listings. Example items are clearly marked as drafts.
+baseurl: "/for-sale"
+markdown: kramdown
+theme: null
+
+collections:
+  items:
+    output: true
+    permalink: /items/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: items
+    values:
+      layout: item
+      status: available
+      currency: "£"

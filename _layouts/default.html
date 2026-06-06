@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+      {% if site.description %}
+        <p class="site-description">{{ site.description }}</p>
+      {% endif %}
+    </header>
+
+    <main class="page-shell">
+      {{ content }}
+    </main>
+  </body>
+</html>

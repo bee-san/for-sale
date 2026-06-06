@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<article class="item-detail">
+  <p><a href="{{ '/' | relative_url }}">← Back to all items</a></p>
+
+  <header class="item-detail__header">
+    <h1>{{ page.title }}</h1>
+    <p class="item-detail__status"><strong>Status:</strong> {{ page.status | default: 'available' | capitalize }}</p>
+    <p class="item-detail__price"><strong>Price:</strong> {{ page.currency | default: '£' }}{{ page.price }}</p>
+    {% if page.condition %}
+      <p class="item-detail__meta"><strong>Condition:</strong> {{ page.condition }}</p>
+    {% endif %}
+    {% if page.location_note %}
+      <p class="item-detail__meta"><strong>Location note:</strong> {{ page.location_note }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+    <figure class="item-detail__figure">
+      <img class="item-detail__image" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
+    </figure>
+  {% endif %}
+
+  <div class="item-detail__content">
+    {{ content }}
+  </div>
+
+  <p class="item-detail__contact">Questions or photo requests? Use the seller's public contact method.</p>
+</article>
