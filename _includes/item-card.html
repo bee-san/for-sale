@@ -7,7 +7,7 @@
 
   <div class="item-card__body">
     <p class="item-card__status">{{ item.status | default: 'available' | capitalize }}</p>
-    <h2 class="item-card__title"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    <h2 class="item-card__title"><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h2>
     <p class="item-card__price">{{ item.currency | default: '£' }}{{ item.price }}</p>
 
     {% if item.condition %}

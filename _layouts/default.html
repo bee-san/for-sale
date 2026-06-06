@@ -8,9 +8,9 @@
   </head>
   <body>
     <header class="site-header">
-      <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+      <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></p>
       {% if site.description %}
-        <p class="site-description">{{ site.description }}</p>
+        <p class="site-description">{{ site.description | escape }}</p>
       {% endif %}
     </header>
 

@@ -6,7 +6,7 @@ layout: default
   <p><a href="{{ '/' | relative_url }}">← Back to all items</a></p>
 
   <header class="item-detail__header">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title | escape }}</h1>
     <p class="item-detail__status"><strong>Status:</strong> {{ page.status | default: 'available' | capitalize }}</p>
     <p class="item-detail__price"><strong>Price:</strong> {{ page.currency | default: '£' }}{{ page.price }}</p>
     {% if page.condition %}
