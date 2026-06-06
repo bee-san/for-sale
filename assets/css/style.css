@@ -59,12 +59,13 @@ a:focus-visible {
 
 .site-header,
 .page-shell {
-  width: min(100% - 2rem, 72rem);
+  width: min(72rem, 100%);
   margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 .site-header {
-  padding: 1.5rem 0 0.5rem;
+  padding-block: 1.5rem 0.5rem;
   display: grid;
   gap: 0.25rem;
 }
@@ -91,10 +92,11 @@ a:focus-visible {
   max-width: 60ch;
   color: var(--muted);
   font-size: 1rem;
+  overflow-wrap: anywhere;
 }
 
 .page-shell {
-  padding: 1rem 0 3rem;
+  padding-block: 1rem 3rem;
 }
 
 .page-shell > h1,
@@ -118,6 +120,19 @@ a:focus-visible {
   margin-bottom: 1.25rem;
   color: var(--muted);
   font-size: 1.02rem;
+  overflow-wrap: anywhere;
+}
+
+.site-header,
+.page-shell,
+.item-grid,
+.item-card,
+.item-card__body,
+.item-detail,
+.item-detail__header,
+.item-detail__content,
+details.sold-items {
+  min-width: 0;
 }
 
 .item-grid {
@@ -205,6 +220,7 @@ a:focus-visible {
   font-size: 1.2rem;
   line-height: 1.25;
   letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
 }
 
 .item-card__title a {
@@ -229,6 +245,7 @@ a:focus-visible {
   margin: 0;
   color: var(--muted);
   font-size: 0.97rem;
+  overflow-wrap: anywhere;
 }
 
 .item-card__excerpt {
@@ -323,6 +340,7 @@ details.sold-items .item-grid {
 .item-detail__meta,
 .item-detail__contact {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .item-detail__status,
@@ -368,11 +386,11 @@ details.sold-items .item-grid {
 @media (max-width: 42rem) {
   .site-header,
   .page-shell {
-    width: min(100% - 1rem, 72rem);
+    padding-inline: 0.75rem;
   }
 
   .site-header {
-    padding-top: 1rem;
+    padding-block-start: 1rem;
   }
 
   .item-card__body,

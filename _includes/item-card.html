@@ -18,6 +18,6 @@
       <p class="item-card__meta"><strong>Location note:</strong> {{ item.location_note }}</p>
     {% endif %}
 
-    <p class="item-card__excerpt">{{ item.content | strip_html | strip_newlines | truncatewords: 28 }}</p>
+    <p class="item-card__excerpt">{{ item.content | strip_html | replace: "\n", " " | replace: "\r", " " | strip | truncatewords: 28 }}</p>
   </div>
 </article>
