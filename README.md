@@ -1,14 +1,51 @@
 # for-sale
 
-A GitHub Pages Jekyll site for Markdown sale listings.
+A tiny GitHub Pages + Jekyll site for selling personal items from Markdown files.
 
-## Editing a sale item
+- **Live site:** https://bee-san.github.io/for-sale/
+- **GitHub repo:** https://github.com/bee-san/for-sale
+- **Listings live in:** `_items/*.md`
+- **Photos live in:** `assets/images/`
 
-1. Create a new Markdown file in `_items/`, for example `_items/desk-lamp.md`.
-2. Add front matter at the top of the file.
-3. Write the item description below the front matter in Markdown.
+This is a simple public listing/catalog site. It does **not** include a cart, payments, buyer accounts, or private inventory.
 
-Example:
+## Run locally
+
+Prerequisites:
+
+- Ruby + Bundler
+- Git
+
+Install dependencies and start a local preview:
+
+```bash
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/for-sale/
+```
+
+Build without serving:
+
+```bash
+bundle exec jekyll build
+```
+
+The generated site is written to `_site/`.
+
+## Add an item to sell
+
+Create a new Markdown file in `_items/`, for example:
+
+```text
+_items/desk-lamp.md
+```
+
+Use this template:
 
 ```markdown
 ---
@@ -24,42 +61,77 @@ location_note: "Public pickup note only"
 A short description of the item.
 
 - Add dimensions, condition notes, and anything useful to a buyer.
+- Mention defects clearly.
 - Keep the copy short and readable.
 ```
 
-Status values:
+Tips:
 
-- `available` — shown in the Available section
-- `pending` — shown in the Pending section
-- `sold` — shown in the sold section, collapsed by default and visually muted
+- Use lowercase kebab-case filenames, e.g. `_items/ikea-chair.md`.
+- Keep `price` in quotes so values like `10 ono`, `Free`, or `25 each` work.
+- If you do not have a photo yet, leave `image:` blank or omit it.
+- Replace `_items/example-item.md` once real listings are added.
+
+## Add item photos
+
+1. Put image files in `assets/images/`.
+2. Reference them from the item front matter:
+
+```yaml
+image: /assets/images/desk-lamp.jpg
+```
+
+Keep images reasonably sized so the public page stays fast.
+
+## Mark an item pending or sold
+
+Edit the item's Markdown front matter:
+
+```yaml
+status: pending
+```
+
+or:
+
+```yaml
+status: sold
+```
+
+Status behavior:
+
+- `available` — shown in the Available section.
+- `pending` — shown in the Pending section.
+- `sold` — shown in the Sold section, collapsed by default and visually muted.
 
 If you omit `status`, it defaults to `available`.
 
-## Adding images
+## Publish changes
 
-- Put image files in `assets/images/`.
-- Reference them from the item front matter, for example `image: /assets/images/desk-lamp.jpg`.
-- Keep images reasonably sized so the public page stays fast.
-- Anything committed to this repo is public if the GitHub Pages site is public.
+After editing items/photos:
+
+```bash
+git status --short
+git add _items assets/images README.md
+git commit -m "content: update sale listings"
+git push
+```
+
+GitHub Pages is configured to deploy from the root of the `main` branch. After pushing, GitHub will rebuild the site automatically.
+
+## Selling workflow
+
+1. Add one Markdown file per item in `_items/`.
+2. Add an image in `assets/images/` if you have one.
+3. Set `status: available` and choose a public-safe `location_note`.
+4. Push the change to GitHub.
+5. Share the live item/site link with buyers.
+6. When someone asks to buy it, change `status` to `pending`.
+7. After it is gone, change `status` to `sold`.
 
 ## Privacy note
 
-Do not commit private phone numbers, email addresses, home addresses, or other personal details unless Bee explicitly wants them public.
+This site is public. Do not commit private phone numbers, email addresses, home addresses, exact pickup addresses, secrets, or private photos unless you explicitly want them public.
 
-## Local preview and build
+## GitHub Pages configuration
 
-This repo is set up for local Jekyll validation with the GitHub Pages gem.
-
-```bash
-bundle install
-bundle exec jekyll serve
-bundle exec jekyll build
-```
-
-The generated site is written to `_site/`.
-
-## GitHub Pages deployment
-
-Push the `main` branch to GitHub and enable GitHub Pages to build from the root of the `main` branch.
-
-The current `_config.yml` is configured for the project URL path `/for-sale/`, which matches a repository named `for-sale`. If the repository name changes, update `baseurl` accordingly.
+The current `_config.yml` is configured for the project URL path `/for-sale/`, matching this repo name. If the repository name changes, update `baseurl` in `_config.yml` accordingly.
