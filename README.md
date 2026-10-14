@@ -7,7 +7,7 @@ A small, static GitHub Pages + Jekyll site for personal sale listings.
 - **Content:** `_items/*.md`
 - **Photos:** `assets/images/`
 
-The site has four photographed listings: an LG monitor, Xbox bundle, Digimon bundle and Russell Hobbs coffee maker. Prices are provisional GBP estimates. Working condition and complete contents have not been verified. See [pricing evidence and limitations](PRICING.md).
+The site has five photographed listings: an LG monitor, Xbox bundle, Digimon bundle, Russell Hobbs coffee maker and Lenovo ThinkPad P51. Prices are provisional GBP estimates. Working condition and complete contents have not been verified. The P51's SSD is included, but its capacity is an unconfirmed estimate. See [pricing evidence and limitations](PRICING.md).
 
 ## Run locally
 
@@ -27,7 +27,7 @@ bundle exec jekyll build
 python3 -m unittest discover -s tests -v
 ```
 
-CI runs the same build and checks. The tests currently pin the four initial listings and estimated prices; update `ITEMS` and count assertions in `tests/test_site.py` when changing this inventory.
+CI runs the same build and checks. The tests pin the photographed inventory and estimated prices; update `ITEMS` in `tests/test_site.py` when changing it. They also check every linked listing photo for camera EXIF and keep the P51's unconfirmed specifications explicit.
 
 ## Add an item to sell
 

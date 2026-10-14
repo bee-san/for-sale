@@ -14,6 +14,7 @@ ITEMS = {
     'xbox-360-bundle': ('Xbox 360', '£60', 'region'),
     'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£50', 'Black Roar'),
     'russell-hobbs-coffee-maker': ('Russell Hobbs', '£10', 'travel mug'),
+    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£200', 'capacity unconfirmed'),
 }
 
 
@@ -53,9 +54,9 @@ class SaleSiteTests(unittest.TestCase):
     def page(self, path):
         return Page(get(path).decode())
 
-    def test_home_has_exactly_the_four_photographed_listings(self):
+    def test_home_has_exactly_the_photographed_inventory(self):
         page = self.page('index.html')
-        self.assertEqual(len(page.cards), 4)
+        self.assertEqual(len(page.cards), len(ITEMS))
         self.assertEqual(page.h1_count, 1)
         text = ' '.join(page.text)
         self.assertIn('London', text)
@@ -99,12 +100,26 @@ class SaleSiteTests(unittest.TestCase):
                 self.assertTrue(get(local), (path, link))
 
     def test_public_photos_have_no_camera_exif_metadata(self):
-        images = self.page('index.html').images
-        self.assertEqual(len(images), 4)
-        for image in images:
+        home_images = self.page('index.html').images
+        self.assertEqual(len(home_images), len(ITEMS))
+        images = {image['src']: image for image in home_images}
+        for slug in ITEMS:
+            for image in self.page(f'items/{slug}/index.html').images:
+                images[image['src']] = image
+        for image in images.values():
             path = image['src'].removeprefix('/for-sale/')
             data = get(path)
             self.assertNotIn(b'Exif\x00\x00', data, path)
+
+    def test_p51_does_not_turn_estimated_storage_into_confirmed_specs(self):
+        page = self.page('items/lenovo-thinkpad-p51/index.html')
+        text = ' '.join(' '.join(page.text).split())
+        for expected in ('around 500GB', 'capacity unconfirmed', 'Japanese',
+                         'RAM', 'not demonstrated', 'charger'):
+            self.assertIn(expected, text)
+        self.assertEqual(len(page.images), 4)
+        for unsupported in ('512GB SSD', '32GB RAM', 'fully tested', '£150', '/Users/'):
+            self.assertNotIn(unsupported, text)
 
     def test_public_copy_does_not_expose_private_contact_or_local_paths(self):
         for path in ['index.html'] + [f'items/{slug}/index.html' for slug in ITEMS]:
