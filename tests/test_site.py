@@ -15,6 +15,15 @@ ITEMS = {
     'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£50', 'Black Roar'),
     'russell-hobbs-coffee-maker': ('Russell Hobbs', '£10', 'travel mug'),
     'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£200', 'capacity unconfirmed'),
+    'jurassic-park': ('Jurassic Park by Michael Crichton', '£2', 'creased'),
+    'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£4', 'signature'),
+    'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£5', 'B1-B2'),
+    'dandadan-vol-1-japanese': ('Dandadan volume 1, Japanese edition', '£3', 'Japanese-language'),
+    'demon-slayer-rengoku-zero': ('Demon Slayer Rengoku Volume 0, Japanese booklet', '£8', 'booklet'),
+    'the-secret-history': ('The Secret History by Donna Tartt', '£2', 'creased'),
+    'japanese-keigo-handbook': ('Japanese keigo handbook', '£2', 'stained'),
+    'tapo-doorbell': ('Tapo D205 video doorbell', '£20', '3M'),
+    'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£100', 'factory'),
 }
 
 
