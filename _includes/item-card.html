@@ -1,23 +1,9 @@
 <article class="item-card item-card--{{ item.status | default: 'available' | downcase }}">
-  {% if item.image %}
-    <a class="item-card__image-link" href="{{ item.url | relative_url }}">
-      <img class="item-card__image" src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}">
-    </a>
-  {% endif %}
-
+  {% if item.image %}<a class="item-card__image-link" href="{{ item.url | relative_url }}"><img class="item-card__image" src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title | escape }}" width="960" height="720" loading="lazy" decoding="async"></a>{% endif %}
   <div class="item-card__body">
-    <p class="item-card__status">{{ item.status | default: 'available' | capitalize }}</p>
-    <h2 class="item-card__title"><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h2>
-    <p class="item-card__price">{{ item.currency | default: '£' }}{{ item.price }}</p>
-
-    {% if item.condition %}
-      <p class="item-card__meta"><strong>Condition:</strong> {{ item.condition }}</p>
-    {% endif %}
-
-    {% if item.location_note %}
-      <p class="item-card__meta"><strong>Location note:</strong> {{ item.location_note }}</p>
-    {% endif %}
-
-    <p class="item-card__excerpt">{{ item.content | strip_html | replace: "\n", " " | replace: "\r", " " | strip | truncatewords: 28 }}</p>
+    <div class="item-card__topline"><p class="item-card__status">{{ item.status | default: 'available' | capitalize }}</p><span class="item-category">{{ item.category | escape }}</span></div>
+    <h3 class="item-card__title"><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3>
+    <p class="item-card__excerpt">{{ item.summary | escape }}</p>
+    <div class="item-card__bottom"><div><p class="item-card__price">{{ item.currency | default: '£' }}{{ item.price | escape }}</p><span class="price-caption">{% if item.estimated %}Estimated asking price{% else %}Asking price{% endif %}</span></div><a class="listing-link" href="{{ item.url | relative_url }}" aria-label="View {{ item.title | escape }}">View listing <span aria-hidden="true">↗</span></a></div>
   </div>
 </article>

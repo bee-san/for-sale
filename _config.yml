@@ -1,14 +1,21 @@
-title: For Sale
-description: Markdown sale listings. Example items are clearly marked as drafts.
+title: "For sale · London"
+description: "Bee's personal sale listings. London collection by arrangement."
+url: "https://bee-san.github.io"
 baseurl: "/for-sale"
 markdown: kramdown
 theme: null
-
+github_repo: "https://github.com/bee-san/for-sale"
+exclude:
+  - README.md
+  - PRICING.md
+  - tests
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 collections:
   items:
     output: true
     permalink: /items/:name/
-
 defaults:
   - scope:
       path: ""

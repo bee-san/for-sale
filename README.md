@@ -1,137 +1,101 @@
-# for-sale
+# Bee's London clear-out
 
-A tiny GitHub Pages + Jekyll site for selling personal items from Markdown files.
+A small, static GitHub Pages + Jekyll site for personal sale listings.
 
 - **Live site:** https://bee-san.github.io/for-sale/
-- **GitHub repo:** https://github.com/bee-san/for-sale
-- **Listings live in:** `_items/*.md`
-- **Photos live in:** `assets/images/`
+- **Repository:** https://github.com/bee-san/for-sale
+- **Content:** `_items/*.md`
+- **Photos:** `assets/images/`
 
-This is a simple public listing/catalog site. It does **not** include a cart, payments, buyer accounts, or private inventory.
+The site has four photographed listings: an LG monitor, Xbox bundle, Digimon bundle and Russell Hobbs coffee maker. Prices are provisional GBP estimates. Working condition and complete contents have not been verified. See [pricing evidence and limitations](PRICING.md).
 
 ## Run locally
 
-Prerequisites:
+Use Ruby 3.3, Bundler and Python 3. Modern Ruby is required; macOS's system Ruby 2.6 is not supported by this lockfile. CI uses Ruby 3.3.
 
-- Ruby + Bundler
-- Git
-
-Install dependencies and start a local preview:
-
-```bash
+```sh
 bundle install
 bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
-Then open:
+Open http://127.0.0.1:4000/for-sale/.
 
-```text
-http://127.0.0.1:4000/for-sale/
-```
+To build and check without serving:
 
-Build without serving:
-
-```bash
+```sh
 bundle exec jekyll build
+python3 -m unittest discover -s tests -v
 ```
 
-The generated site is written to `_site/`.
+CI runs the same build and checks. The tests currently pin the four initial listings and estimated prices; update `ITEMS` and count assertions in `tests/test_site.py` when changing this inventory.
 
 ## Add an item to sell
 
-Create a new Markdown file in `_items/`, for example:
+Create `_items/desk-lamp.md` with front matter and a Markdown description:
 
-```text
-_items/desk-lamp.md
-```
-
-Use this template:
-
-```markdown
+```yaml
 ---
 title: "Desk lamp"
 price: "15"
 currency: "£"
+estimated: true
+order: 5
 status: available
-condition: "Good"
+category: "Home"
+condition: "Used; describe actual condition here."
+location_note: "London, by arrangement."
 image: /assets/images/desk-lamp.jpg
-location_note: "Public pickup note only"
+image_alt: "Describe the actual photo for someone who cannot see it."
+summary: "A short description for the listing card."
+description: "Short description for link previews and search results."
 ---
-
-A short description of the item.
-
-- Add dimensions, condition notes, and anything useful to a buyer.
-- Mention defects clearly.
-- Keep the copy short and readable.
 ```
 
-Tips:
-
-- Use lowercase kebab-case filenames, e.g. `_items/ikea-chair.md`.
-- Keep `price` in quotes so values like `10 ono`, `Free`, or `25 each` work.
-- If you do not have a photo yet, leave `image:` blank or omit it.
-- Replace `_items/example-item.md` once real listings are added.
+Below the front matter, describe the item, what is included, known defects and any uncertainties. Do not describe something as tested, sealed or complete unless it has been checked. Use `estimated: false` only after choosing a firm asking price. Keep `price` quoted. `order` controls card order.
 
 ## Add item photos
 
-1. Put image files in `assets/images/`.
-2. Reference them from the item front matter:
+Use your own photographs, rotate them upright and resize sensibly. Strip EXIF, especially GPS data, before adding images. Check backgrounds, labels, serial numbers, barcodes and reflections. The public LG label copy has its serial and barcode covered; unredacted originals are not in this repository.
 
-```yaml
-image: /assets/images/desk-lamp.jpg
-```
-
-Keep images reasonably sized so the public page stays fast.
+Add photos to `assets/images/` and reference them using a path beginning `/assets/images/`. For extra photos inside a description, apply Jekyll's `relative_url` filter so the `/for-sale/` project path is preserved.
 
 ## Mark an item pending or sold
 
-Edit the item's Markdown front matter:
+Change its front matter:
 
 ```yaml
 status: pending
 ```
 
-or:
+or `status: sold`. Available items come first, then pending items. Sold listings are collapsed on the homepage, and their detail page no longer offers an enquiry button.
 
-```yaml
-status: sold
-```
+## Enquiries and selling workflow
 
-Status behavior:
+1. Share the live homepage or an individual listing link.
+2. Buyers who know Bee can message her through their existing private contact.
+3. Other buyers can use **Enquire on GitHub**, which opens a prefilled issue. They need a GitHub account. The site does not automatically post anything.
+4. Confirm availability, operation, accessories and price before agreeing a purchase. Set the item to `pending` when reserved.
+5. Arrange contact and collection details privately, not in public issues. Do not post addresses or phone numbers.
+6. Mark an item `sold` once it has gone.
 
-- `available` — shown in the Available section.
-- `pending` — shown in the Pending section.
-- `sold` — shown in the Sold section, collapsed by default and visually muted.
-
-If you omit `status`, it defaults to `available`.
+This is a catalogue, not a shop checkout. It does not take payments, collect form submissions, hold buyer accounts or add analytics. No private contact details are published.
 
 ## Publish changes
 
-After editing items/photos:
-
-```bash
+```sh
 git status --short
-git add _items assets/images README.md
+git diff --check
+git add _items assets/images README.md tests
 git commit -m "content: update sale listings"
 git push
 ```
 
-GitHub Pages is configured to deploy from the root of the `main` branch. After pushing, GitHub will rebuild the site automatically.
-
-## Selling workflow
-
-1. Add one Markdown file per item in `_items/`.
-2. Add an image in `assets/images/` if you have one.
-3. Set `status: available` and choose a public-safe `location_note`.
-4. Push the change to GitHub.
-5. Share the live item/site link with buyers.
-6. When someone asks to buy it, change `status` to `pending`.
-7. After it is gone, change `status` to `sold`.
+GitHub Pages builds from the root of `main`. Check the **pages build and deployment** and **Verify sale site** workflows after pushing. Open the live site to confirm the update before sharing it.
 
 ## Privacy note
 
-This site is public. Do not commit private phone numbers, email addresses, home addresses, exact pickup addresses, secrets, or private photos unless you explicitly want them public.
+Everything committed here is public, including Git history. Never commit private addresses, contact details, credentials or unredacted photos. Deleting a file later does not remove it from history. README, pricing notes and tests are excluded from the generated Pages site but remain public in the repository.
 
 ## GitHub Pages configuration
 
-The current `_config.yml` is configured for the project URL path `/for-sale/`, matching this repo name. If the repository name changes, update `baseurl` in `_config.yml` accordingly.
+The project base path is `/for-sale/` in `_config.yml`. The `github_repo` field controls the enquiry destination. If renaming or moving the repository, update `url`, `baseurl` and `github_repo` together.

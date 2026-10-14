@@ -1,22 +1,26 @@
 <!doctype html>
 <html lang="en-GB">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title and page.title != site.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description | escape }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
-    <header class="site-header">
-      <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></p>
-      {% if site.description %}
-        <p class="site-description">{{ site.description | escape }}</p>
-      {% endif %}
-    </header>
-
-    <main class="page-shell">
-      {{ content }}
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>{% if page.title and page.title != site.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <p class="site-title"><a href="{{ '/' | relative_url }}">BEE <span>/</span> FOR SALE</a></p>
+    <a class="header-link" href="{{ '/#how-to-buy' | relative_url }}">How to buy <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="page-shell" id="main">{{ content }}</main>
+  <footer class="site-footer"><span>London · Personal sale</span><a href="{{ site.github_repo }}">Listings on GitHub ↗</a><span>No trackers. No checkout.</span></footer>
+</body>
 </html>

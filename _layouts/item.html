@@ -1,31 +1,33 @@
 ---
 layout: default
 ---
-
 <article class="item-detail">
-  <p><a href="{{ '/' | relative_url }}">← Back to all items</a></p>
+  <p class="back-link"><a href="{{ '/' | relative_url }}">← Back to all items</a></p>
+  <div class="item-detail__overview">
+    <figure class="item-detail__figure"><a href="{{ page.image | relative_url }}"><img class="item-detail__image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" decoding="async"></a><figcaption>Actual item photo. Select to view full size.</figcaption></figure>
+    <header class="item-detail__header">
+      <p class="eyebrow">{{ page.category | escape }} · {{ page.status | capitalize }}</p>
+      <h1>{{ page.title | escape }}</h1>
+      <p class="item-detail__price">{{ page.currency | default: '£' }}{{ page.price | escape }}</p>
+      <p class="price-caption">{% if page.estimated %}Estimated asking price · offers welcome{% else %}Asking price{% endif %}</p>
+      <p>{{ page.summary | escape }}</p>
+      <p class="item-detail__meta"><strong>Condition:</strong> {{ page.condition | escape }}</p>
+      <p class="item-detail__meta"><strong>Collection:</strong> {{ page.location_note | escape }}</p>
+      {% if page.status != 'sold' %}
+      {% capture enquiry_title %}Enquiry: {{ page.title }}{% endcapture %}
+      {% capture enquiry_body %}I am interested in {{ page.title }}.
 
-  <header class="item-detail__header">
-    <h1>{{ page.title | escape }}</h1>
-    <p class="item-detail__status"><strong>Status:</strong> {{ page.status | default: 'available' | capitalize }}</p>
-    <p class="item-detail__price"><strong>Price:</strong> {{ page.currency | default: '£' }}{{ page.price }}</p>
-    {% if page.condition %}
-      <p class="item-detail__meta"><strong>Condition:</strong> {{ page.condition }}</p>
-    {% endif %}
-    {% if page.location_note %}
-      <p class="item-detail__meta"><strong>Location note:</strong> {{ page.location_note }}</p>
-    {% endif %}
-  </header>
+Listing: {{ page.url | absolute_url }}
 
-  {% if page.image %}
-    <figure class="item-detail__figure">
-      <img class="item-detail__image" src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}">
-    </figure>
-  {% endif %}
+Please confirm availability, working condition, included items and the final price.
 
-  <div class="item-detail__content">
-    {{ content }}
+My question or offer:
+
+Privacy: this enquiry is public. Do not include contact details, addresses or collection arrangements. Use an existing private contact for those.{% endcapture %}
+      <a class="button" href="{{ site.github_repo }}/issues/new?title={{ enquiry_title | url_encode }}&amp;body={{ enquiry_body | url_encode }}">Enquire on GitHub <span aria-hidden="true">↗</span></a>
+      <p class="contact-caption">GitHub account needed. Enquiries are public, so keep personal details private. Already know Bee? Message her directly instead.</p>
+      {% endif %}
+    </header>
   </div>
-
-  <p class="item-detail__contact">Questions or photo requests? Use the seller's public contact method.</p>
+  <div class="item-detail__content">{{ content }}</div>
 </article>
