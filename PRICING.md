@@ -36,3 +36,12 @@ Judgement-based estimate, roughly £5 to £15 **if working**, allowing for the t
 - eBay and removed Gumtree pages did not provide a reliable comparable price. No sold-price claim is made.
 
 A non-working appliance should not be priced or described as a working coffee maker. Confirm cleaning/descaling, filter basket, lead and brew operation first.
+
+## Lenovo ThinkPad P51: £200
+
+Judgement-based provisional starting ask, with a discussion range around £160 to £180 **if working, with at least 16GB RAM, approximately 500GB SSD storage and a charger**. These are valuation assumptions, not verified specifications of the pictured unit. The actual RAM, exact CPU/GPU, battery condition, charger inclusion and SSD model/capacity remain unconfirmed.
+
+- [High Tech Computers P51 retailer reference](https://www.hightechcomputers.co.uk/products/lenovo-thinkpad-p51-15-6-fhd-i7-7th-gen-32gb-ram-512gb-ssd-win-10-pro): search-indexed asking price £324.99 for an i7/32GB/512GB configuration. The fetched page confirmed that configuration, original charger and six-month store warranty, but did not expose the price in its extracted text. This is a weaker retailer asking-price reference, not a completed sale or this laptop's specification.
+- eBay sold/completed searches were blocked and the browser fallback unavailable. No reliable P51 sold-price range was verified.
+
+The Japanese keyboard and visible wear may narrow the UK buyer pool. Reassess once the actual specifications and condition are known. The SSD's roughly 500GB capacity is an owner estimate, not a label/BIOS reading. No private negotiation floor or purchase-account details are published.
