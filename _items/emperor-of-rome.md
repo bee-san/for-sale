@@ -21,4 +21,4 @@ No signature has been checked or authenticated, so no signed-copy premium is inc
 
 ## Price and collection
 
-**£4 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£4 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

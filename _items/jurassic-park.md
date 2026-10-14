@@ -21,4 +21,4 @@ The photos show the cover only. Interior pages and binding have not been checked
 
 ## Price and collection
 
-**£2 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£2 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

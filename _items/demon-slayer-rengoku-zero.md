@@ -21,4 +21,4 @@ Condition as pictured. Interior pages have not been checked in detail. The estim
 
 ## Price and collection
 
-**£8 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£8 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

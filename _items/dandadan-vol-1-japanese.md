@@ -21,4 +21,4 @@ No first-print or collectible-edition claim is being made. Interior pages have n
 
 ## Price and collection
 
-**£3 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£3 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

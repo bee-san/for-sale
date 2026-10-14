@@ -21,4 +21,4 @@ Used paperback with the cover condition shown in the photo. Interior pages and a
 
 ## Price and collection
 
-**£5 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£5 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
