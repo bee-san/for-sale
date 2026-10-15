@@ -14,7 +14,7 @@ ITEMS = {
     'xbox-360-bundle': ('Xbox 360', '£35', 'region'),
     'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£50', 'Black Roar'),
     'russell-hobbs-coffee-maker': ('Russell Hobbs', '£10', 'travel mug'),
-    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£200', 'capacity unconfirmed'),
+    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£200', 'i7-7820HQ'),
     'jurassic-park': ('Jurassic Park by Michael Crichton', '£2', 'creased'),
     'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£10', 'Signed by Mary Beard'),
     'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£5', 'B1-B2'),
@@ -123,15 +123,22 @@ class SaleSiteTests(unittest.TestCase):
             data = get(path)
             self.assertNotIn(b'Exif\x00\x00', data, path)
 
-    def test_p51_does_not_turn_estimated_storage_into_confirmed_specs(self):
+    def test_p51_confirms_photographed_specs_without_inventing_drive_hardware(self):
         page = self.page('items/lenovo-thinkpad-p51/index.html')
         text = ' '.join(' '.join(page.text).split())
-        for expected in ('around 500GB', 'capacity unconfirmed', 'Japanese',
-                         'RAM', 'not demonstrated', 'charger'):
+        for expected in ('i7-7820HQ', '2.90GHz', '32GB RAM', '237GB', '447GB',
+                         'Windows 11 IoT Enterprise LTSC', '24H2', 'Japanese',
+                         'volume label, not a hardware identification',
+                         'booted into Windows', 'charger', 'licence'):
             self.assertIn(expected, text)
-        self.assertEqual(len(page.images), 4)
-        for unsupported in ('512GB SSD', '32GB RAM', 'fully tested', '£150', '/Users/'):
+        self.assertEqual(len(page.images), 6)
+        for unsupported in ('512GB SSD', 'two SSDs', 'fully tested', '£150',
+                            'operation is not demonstrated', '/Users/'):
             self.assertNotIn(unsupported, text)
+        card = next(fragment for fragment in get('index.html').decode().split('<article')
+                    if '/items/lenovo-thinkpad-p51/' in fragment).split('</article>')[0]
+        for confirmed in ('i7-7820HQ', '32GB RAM', '237GB', '447GB'):
+            self.assertIn(confirmed, ' '.join(Page(card).text))
 
     def test_mary_beard_is_signed_and_in_good_used_condition(self):
         page = self.page('items/emperor-of-rome/index.html')

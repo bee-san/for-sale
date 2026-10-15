@@ -6,36 +6,48 @@ estimated: true
 order: 5
 status: available
 category: "Computers"
-condition: "Used; working condition and full specifications to confirm."
+condition: "Used; photographed running Windows. Battery health and full functional testing to confirm."
 location_note: "London, by arrangement."
 image: /assets/images/thinkpad-p51-open.jpg
 image_alt: "Open black Lenovo ThinkPad P51 with a Japanese keyboard, number pad and red TrackPoint; the screen is off."
-summary: "Japanese keyboard, 7th-gen Intel Core i7 vPro sticker and an SSD included. Storage capacity unconfirmed."
-description: "Lenovo ThinkPad P51 laptop with Japanese keyboard and SSD included. Provisional estimated asking price £200, London collection; full specifications unconfirmed."
+summary: "Intel Core i7-7820HQ, 32GB RAM and Japanese keyboard. Windows shows 237GB C: and 447GB D: volumes; an SSD is included."
+description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM, Japanese keyboard and SSD included. Windows shows 237GB and 447GB volumes. Estimated £200, London collection."
 ---
 ## About the laptop
 
 A **Lenovo ThinkPad P51**, identified from the model marking beside the screen hinge. It has a **Japanese/JIS keyboard** with Latin and kana legends, a separate number pad, the red TrackPoint and a touchpad with physical buttons.
 
-The palm-rest sticker reads **Intel Core i7 vPro, 7th generation**. The exact installed processor model has not been checked.
+## Confirmed from the new photos
 
-## SSD included
+- **Processor:** Intel Core i7-7820HQ, with a 2.90GHz base speed shown in Windows.
+- **Memory:** 32GB RAM installed, with 31.8GB usable shown.
+- **System:** 64-bit Windows on an x64 processor. Windows reports no pen or touch input.
+- **Installed OS shown:** Windows 11 IoT Enterprise LTSC, version 24H2. Activation and licence transfer have not been checked; no transferable Windows licence is promised.
+- **Storage volumes:** C: shows **237GB total**; D:, labelled **Data SSD**, shows **447GB total**. These are Windows-reported volume sizes, not verified physical drive specifications.
 
-An **SSD is included**. I believe it is **around 500GB**, but its exact model and capacity are unconfirmed. Please confirm the capacity before agreeing a purchase rather than treating that estimate as a specification.
+An **SSD is included**. The earlier “around 500GB” storage estimate is superseded by the volume sizes above. The photos do not establish how many physical drives are fitted, their models or interfaces, or whether both volumes are on SSD storage. The D: name is a volume label, not a hardware identification.
 
-**RAM, graphics, screen resolution and the installed operating system are also unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
+**Graphics model, screen resolution, battery health/runtime and charger inclusion remain unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
 
 ## Condition and price
 
-**£200 is a provisional estimated asking price**, subject to confirmation of working condition, specifications and included accessories. Offers welcome. This starting estimate assumes a working laptop, at least 16GB RAM and a charger; those details are not yet verified.
+**£200 is the provisional estimated asking price.** Offers welcome. The price is unchanged following confirmation of the i7-7820HQ and 32GB RAM. It assumes no significant functional faults and a suitable charger included; those details still need confirming.
 
-There are visible cosmetic signs of use, dust/smudges and stickers on the lid. The screen is off in the photos: operation is **not demonstrated**, rather than being known faulty. Battery condition and runtime have not been checked.
+There are visible cosmetic signs of use, dust/smudges and stickers on the lid. The new photos **show the laptop booted into Windows with the display on**. This demonstrates booting and a lit display, not a full test of the screen, keyboard, ports, cooling or battery. Battery condition and runtime have not been checked.
 
-A **charger is not pictured**, so please confirm whether one is included. Before handover, confirm the full specifications, booting, screen, keyboard, charging and removal of personal data.
+A **charger is not pictured**, so please confirm whether one is included. Before handover, confirm the remaining specifications, screen, keyboard, charging and removal of personal data.
 
 Collection in London, by arrangement.
 
 ## More photos
+
+### Processor and memory
+
+![Windows reports an Intel Core i7-7820HQ at 2.90GHz and 32GB RAM, with 31.8GB usable. The photo is cropped to exclude device identifiers.]({{ '/assets/images/thinkpad-p51-specs.jpg' | relative_url }})
+
+### Storage volumes
+
+![Windows This PC shows Local Disk C with 237GB total and Data SSD D with 447GB total. These are volume sizes, not proof of physical drive count or type.]({{ '/assets/images/thinkpad-p51-storage.jpg' | relative_url }})
 
 ### Lid
 

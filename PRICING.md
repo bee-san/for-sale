@@ -39,12 +39,12 @@ A non-working appliance should not be priced or described as a working coffee ma
 
 ## Lenovo ThinkPad P51: £200
 
-Judgement-based provisional starting ask, with a discussion range around £160 to £180 **if working, with at least 16GB RAM, approximately 500GB SSD storage and a charger**. These are valuation assumptions, not verified specifications of the pictured unit. The actual RAM, exact CPU/GPU, battery condition, charger inclusion and SSD model/capacity remain unconfirmed.
+Updated 15 October 2026. Keep **£200** as a judgement-based provisional asking price following the seller's new photos: **i7-7820HQ and 32GB RAM are now confirmed**, and the laptop is photographed booted into Windows. The price assumes no significant functional faults and a suitable charger included; neither a full functional test nor charger inclusion has been confirmed. No reliable completed-sale dataset was obtained.
 
-- [High Tech Computers P51 retailer reference](https://www.hightechcomputers.co.uk/products/lenovo-thinkpad-p51-15-6-fhd-i7-7th-gen-32gb-ram-512gb-ssd-win-10-pro): search-indexed asking price £324.99 for an i7/32GB/512GB configuration. The fetched page confirmed that configuration, original charger and six-month store warranty, but did not expose the price in its extracted text. This is a weaker retailer asking-price reference, not a completed sale or this laptop's specification.
-- eBay sold/completed searches were blocked and the browser fallback unavailable. No reliable P51 sold-price range was verified.
+- [High Tech Computers P51 retailer reference](https://www.hightechcomputers.co.uk/products/lenovo-thinkpad-p51-15-6-fhd-i7-7th-gen-32gb-ram-512gb-ssd-win-10-pro): re-fetched 15 October 2026. The page explicitly shows **£324.99**, **out of stock**, i7 7th gen/32GB/512GB, an original charger and six-month store warranty. This is an unavailable retailer asking-price reference, not a current purchasable offer, completed sale or this laptop's specification. Its warranty and charger make it different from an untested private sale.
+- Additional UK eBay search results identified similar i7-7820HQ/32GB configurations, but direct extraction timed out. No unverified prices or sold-price range have been used.
 
-The Japanese keyboard and visible wear may narrow the UK buyer pool. Reassess once the actual specifications and condition are known. The SSD's roughly 500GB capacity is an owner estimate, not a label/BIOS reading. No private negotiation floor or purchase-account details are published.
+The Japanese keyboard and visible wear may narrow the UK buyer pool. The new storage photo shows **237GB C: and 447GB D: volumes**; D: is labelled “Data SSD”. An SSD is seller-confirmed, but volume labels/sizes do not prove physical drive count, nominal drive capacity, interface or SSD type for both volumes. The earlier roughly 500GB estimate is superseded by those reported volumes. Reassess if the GPU, battery health, display resolution, faults or missing charger materially change the value. The installed Windows 11 IoT Enterprise LTSC 24H2 is not treated as a verified transferable licence or a price premium. No private negotiation floor or purchase-account details are published.
 
 ## Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: £5
 

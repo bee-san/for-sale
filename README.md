@@ -7,7 +7,7 @@ A small, static GitHub Pages + Jekyll site for personal sale listings.
 - **Content:** `_items/*.md`
 - **Photos:** `assets/images/`
 
-The site contains photographed electronics, home items, books and Japanese publications. Prices are provisional GBP estimates. Condition, contents and testing limits are described in each listing. The P51's SSD is included, but its capacity is an unconfirmed estimate. See [pricing evidence and limitations](PRICING.md).
+The site contains photographed electronics, home items, books and Japanese publications. Prices are provisional GBP estimates. Condition, contents and testing limits are described in each listing. The P51's i7-7820HQ and 32GB RAM are photo-confirmed. An SSD is included; Windows shows 237GB and 447GB volumes, but physical drive specifications remain unconfirmed. See [pricing evidence and limitations](PRICING.md).
 
 ## Run locally
 
