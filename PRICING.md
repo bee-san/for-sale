@@ -9,9 +9,9 @@ Judgement-based estimate for the photographed monitor, Ergo arm and remote, subj
 - [LG manufacturer model specification](https://www.lg.com/us/monitors/lg-32sq780s-w-4k-uhd-monitor): confirms 32-inch-class 4K, Ergo stand, webOS and USB-C power delivery. This is not a valuation source.
 - [UK E-Catalog listing](https://e-catalog.co.uk/LG-32SQ780S.htm): an indexed search result showed a new-price reference of £356.99. The fetched page identifies the product as outdated and did not expose a current purchasable price. Treat that number as indexed retail context, not a verified live offer or sold comparable.
 
-## Xbox 360 and six Japanese game cases: £60
+## Xbox 360 and six Japanese game cases: £35
 
-Judgement-based bundle estimate, with a discussion range around £40 to £80 **if the console works, the discs are present and the accessories are usable**. The Japanese cases do not prove the console region. No individual rare-game premium has been assumed.
+Provisional bundle asking price reduced to £35 following the seller's feedback that £60 was too high. This is a judgement-based quick-sale ask, not a verified sold-comparable valuation. Working condition, disc presence and included accessories remain unconfirmed. The Japanese cases do not prove the console region. No individual rare-game premium has been assumed.
 
 - [8BitBeyond tested Xbox 360 bundle](https://www.8bitbeyond.com/products/xbox-360-250gb-console-white): £89.99 asking price, confirmed through the retailer's public product JSON on the preparation date. Includes controller, PSU, AV lead and six games (four disc-only); retailer describes it as tested and offers a warranty. It is PAL and not an exact match to this bundle.
 - [Public product JSON](https://www.8bitbeyond.com/products/xbox-360-250gb-console-white.js): price 8999 pence, marked available at retrieval. Availability can change.
