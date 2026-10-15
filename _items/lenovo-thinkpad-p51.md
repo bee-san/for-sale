@@ -10,8 +10,8 @@ condition: "Used; photographed running Windows. Charger included; battery runtim
 location_note: "London, by arrangement."
 image: /assets/images/thinkpad-p51-open.jpg
 image_alt: "Open black Lenovo ThinkPad P51 with a Japanese keyboard, number pad and red TrackPoint; the screen is off."
-summary: "Intel Core i7-7820HQ, 32GB RAM and Japanese keyboard. Windows shows 237GB C: and 447GB D: volumes; an SSD and charger are included."
-description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM, Japanese keyboard, SSD and charger included. Windows shows 237GB and 447GB volumes. Estimated £200, London collection."
+summary: "Intel Core i7-7820HQ, 32GB RAM, Japanese keyboard and dedicated NVIDIA Quadro graphics (exact GPU model unconfirmed). Windows shows 237GB C: and 447GB D: volumes; an SSD and charger are included."
+description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM and dedicated NVIDIA Quadro graphics (exact GPU model unconfirmed). Japanese keyboard, SSD and charger included. Windows shows 237GB and 447GB volumes. Estimated £200, London collection."
 ---
 ## About the laptop
 
@@ -29,7 +29,11 @@ An **SSD is included**. The earlier “around 500GB” storage estimate is super
 
 **A charger is included.** The seller says the battery "lasts a while" unplugged. Exact runtime and battery health have not been measured.
 
-**Graphics model and screen resolution remain unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
+## Graphics
+
+**Dedicated NVIDIA Quadro graphics; exact GPU model unconfirmed.** The seller confirms a dedicated GPU. [Lenovo's P51 specifications](https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_P51/ThinkPad_P51_Spec.pdf) list the Quadro M1200 or M2200, both with 4GB graphics memory, but the exact GPU fitted to this laptop has not been checked.
+
+**Screen resolution remains unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
 
 ## Condition and price
 

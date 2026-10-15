@@ -130,7 +130,9 @@ class SaleSiteTests(unittest.TestCase):
                          'Windows 11 IoT Enterprise LTSC', '24H2', 'Japanese',
                          'volume label, not a hardware identification',
                          'booted into Windows', 'A charger is included.',
-                         'lasts a while',
+                         'lasts a while', 'Dedicated NVIDIA Quadro graphics',
+                         'exact GPU model unconfirmed',
+                         'the exact GPU fitted to this laptop has not been checked',
                          'Exact runtime and battery health have not been measured.', 'licence'):
             self.assertIn(expected, text)
         self.assertEqual(len(page.images), 6)
@@ -142,7 +144,8 @@ class SaleSiteTests(unittest.TestCase):
             self.assertNotIn(unsupported, text)
         card = next(fragment for fragment in get('index.html').decode().split('<article')
                     if '/items/lenovo-thinkpad-p51/' in fragment).split('</article>')[0]
-        for confirmed in ('i7-7820HQ', '32GB RAM', '237GB', '447GB'):
+        for confirmed in ('i7-7820HQ', '32GB RAM', '237GB', '447GB',
+                          'dedicated NVIDIA Quadro graphics', 'exact GPU model unconfirmed'):
             self.assertIn(confirmed, ' '.join(Page(card).text))
 
     def test_mary_beard_is_signed_and_in_good_used_condition(self):
