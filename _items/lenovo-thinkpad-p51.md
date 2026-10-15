@@ -6,12 +6,12 @@ estimated: true
 order: 5
 status: available
 category: "Computers"
-condition: "Used; photographed running Windows. Battery health and full functional testing to confirm."
+condition: "Used; photographed running Windows. Charger included; battery runtime not measured. Full functional testing to confirm."
 location_note: "London, by arrangement."
 image: /assets/images/thinkpad-p51-open.jpg
 image_alt: "Open black Lenovo ThinkPad P51 with a Japanese keyboard, number pad and red TrackPoint; the screen is off."
-summary: "Intel Core i7-7820HQ, 32GB RAM and Japanese keyboard. Windows shows 237GB C: and 447GB D: volumes; an SSD is included."
-description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM, Japanese keyboard and SSD included. Windows shows 237GB and 447GB volumes. Estimated £200, London collection."
+summary: "Intel Core i7-7820HQ, 32GB RAM and Japanese keyboard. Windows shows 237GB C: and 447GB D: volumes; an SSD and charger are included."
+description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM, Japanese keyboard, SSD and charger included. Windows shows 237GB and 447GB volumes. Estimated £200, London collection."
 ---
 ## About the laptop
 
@@ -27,15 +27,17 @@ A **Lenovo ThinkPad P51**, identified from the model marking beside the screen h
 
 An **SSD is included**. The earlier “around 500GB” storage estimate is superseded by the volume sizes above. The photos do not establish how many physical drives are fitted, their models or interfaces, or whether both volumes are on SSD storage. The D: name is a volume label, not a hardware identification.
 
-**Graphics model, screen resolution, battery health/runtime and charger inclusion remain unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
+**A charger is included.** The seller says the battery "lasts a while" unplugged. Exact runtime and battery health have not been measured.
+
+**Graphics model and screen resolution remain unconfirmed.** Specifications from another P51 should not be assumed to apply to this one.
 
 ## Condition and price
 
-**£200 is the provisional estimated asking price.** Offers welcome. The price is unchanged following confirmation of the i7-7820HQ and 32GB RAM. It assumes no significant functional faults and a suitable charger included; those details still need confirming.
+**£200 is the provisional estimated asking price.** Offers welcome. The price is unchanged following confirmation of the i7-7820HQ, 32GB RAM and included charger. It assumes no significant functional faults; a full functional test is still outstanding.
 
-There are visible cosmetic signs of use, dust/smudges and stickers on the lid. The new photos **show the laptop booted into Windows with the display on**. This demonstrates booting and a lit display, not a full test of the screen, keyboard, ports, cooling or battery. Battery condition and runtime have not been checked.
+There are visible cosmetic signs of use, dust/smudges and stickers on the lid. The new photos **show the laptop booted into Windows with the display on**. This demonstrates booting and a lit display, not a full test of the screen, keyboard, ports, cooling or battery.
 
-A **charger is not pictured**, so please confirm whether one is included. Before handover, confirm the remaining specifications, screen, keyboard, charging and removal of personal data.
+Before handover, confirm the remaining specifications, screen, keyboard, charging and removal of personal data.
 
 Collection in London, by arrangement.
 

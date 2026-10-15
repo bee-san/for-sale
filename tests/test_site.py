@@ -129,11 +129,16 @@ class SaleSiteTests(unittest.TestCase):
         for expected in ('i7-7820HQ', '2.90GHz', '32GB RAM', '237GB', '447GB',
                          'Windows 11 IoT Enterprise LTSC', '24H2', 'Japanese',
                          'volume label, not a hardware identification',
-                         'booted into Windows', 'charger', 'licence'):
+                         'booted into Windows', 'A charger is included.',
+                         'lasts a while',
+                         'Exact runtime and battery health have not been measured.', 'licence'):
             self.assertIn(expected, text)
         self.assertEqual(len(page.images), 6)
         for unsupported in ('512GB SSD', 'two SSDs', 'fully tested', '£150',
-                            'operation is not demonstrated', '/Users/'):
+                            'operation is not demonstrated', '/Users/',
+                            'charger inclusion remain unconfirmed',
+                            'confirm whether one is included',
+                            'Battery condition and runtime have not been checked'):
             self.assertNotIn(unsupported, text)
         card = next(fragment for fragment in get('index.html').decode().split('<article')
                     if '/items/lenovo-thinkpad-p51/' in fragment).split('</article>')[0]
