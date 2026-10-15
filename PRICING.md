@@ -45,3 +45,25 @@ Judgement-based provisional starting ask, with a discussion range around £160 t
 - eBay sold/completed searches were blocked and the browser fallback unavailable. No reliable P51 sold-price range was verified.
 
 The Japanese keyboard and visible wear may narrow the UK buyer pool. Reassess once the actual specifications and condition are known. The SSD's roughly 500GB capacity is an owner estimate, not a label/BIOS reading. No private negotiation floor or purchase-account details are published.
+
+## Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: £5
+
+Judgement-based provisional quick-sale ask for a used Japanese-language magazine. No reliable UK completed-sale comparable was obtained, so this is not a researched market valuation. Interior condition and original inserts remain unconfirmed. No rarity premium has been assumed.
+
+- [KADOKAWA issue catalogue](https://www.kadokawa.co.jp/product/322512001453/): confirms No. 1960, cover date 3 September 2026, publication date 20 August 2026 and a 20-page Steins;Gate Re:Boot feature. This verifies identity, not resale value.
+
+## The Secret of Secrets by Dan Brown, hardcover: £5
+
+Judgement-based provisional ask for an ordinary used hardcover with dust jacket and some visible jacket edge wear. The hardcover format is owner-confirmed. The interior, edition and any signature have not been checked; no collectible premium has been assumed.
+
+- [Amazon UK hardcover reference](https://www.amazon.co.uk/Secret-Secrets-brilliant-internationally-bestselling/dp/1787634558): search-indexed new hardcover asking price £12.50. This is retail context only, not a completed sale or evidence of this copy's edition or ISBN.
+- Signed first editions and overseas used-book listings were excluded as poor matches. No reliable UK completed-sale comparable was obtained.
+
+## Lumie Bodyclock Shine 300: £60
+
+Judgement-based provisional ask, subject to confirming the light, alarms, sounds and radio work and that a suitable mains adaptor is included. The display is on in the photo, but that does not establish full operation. Reassess the price if a fault or missing adaptor is found.
+
+- [Lumie manufacturer product page](https://www.lumie.com/products/bodyclock-shine-300): fetched new asking price £149, including a manufacturer warranty. Confirms sunrise/sunset lighting, 15 sounds and FM radio. New retail is context, not a like-for-like used valuation or a warranty offered with this item.
+- eBay search found used listings, but an individual listing could not be fetched and no verified completed-sale price was obtained. £60 is an explicitly provisional estimate, not a sold-comparable valuation.
+
+No private negotiation floors, personal purchase-account details or unredacted device serials are included here.

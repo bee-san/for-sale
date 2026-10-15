@@ -24,6 +24,9 @@ ITEMS = {
     'japanese-keigo-handbook': ('Japanese keigo handbook', '£2', 'stained'),
     'tapo-doorbell': ('Tapo D205 video doorbell', '£20', '3M'),
     'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£40', 'broken screen'),
+    'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£5', '3 September 2026'),
+    'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£5', 'dust jacket'),
+    'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£60', 'not verified'),
 }
 
 
@@ -149,6 +152,26 @@ class SaleSiteTests(unittest.TestCase):
         card = next(fragment for fragment in get('index.html').decode().split('<article')
                     if '/items/thinkpad-x1-carbon-gen5/' in fragment).split('</article>')[0]
         self.assertIn('broken screen', ' '.join(Page(card).text).lower())
+
+    def test_dan_brown_is_explicitly_hardcover_on_card_and_detail(self):
+        page = self.page('items/the-secret-of-secrets/index.html')
+        text = ' '.join(' '.join(page.text).split())
+        self.assertIn('hardcover', text.lower())
+        self.assertIn('dust jacket', text)
+        self.assertNotIn('paperback', text.lower())
+        card = next(fragment for fragment in get('index.html').decode().split('<article')
+                    if '/items/the-secret-of-secrets/' in fragment).split('</article>')[0]
+        self.assertIn('hardcover', ' '.join(Page(card).text).lower())
+
+    def test_lumie_has_both_photos_and_honest_testing_limits(self):
+        page = self.page('items/lumie-bodyclock-shine-300/index.html')
+        text = ' '.join(' '.join(page.text).split())
+        self.assertEqual(len(page.images), 2)
+        for expected in ('Shine 300', 'powers on', 'not verified', 'redacted'):
+            self.assertIn(expected, text)
+        self.assertNotIn('fully tested', text.lower())
+        self.assertNotIn('SN 2026/', text)
+        self.assertNotIn('Bluetooth', text)
 
     def test_public_copy_does_not_expose_private_contact_or_local_paths(self):
         for path in ['index.html'] + [f'items/{slug}/index.html' for slug in ITEMS]:
