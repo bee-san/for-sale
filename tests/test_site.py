@@ -222,7 +222,8 @@ class SaleSiteTests(unittest.TestCase):
                 self.assertEqual(len(page.images), photo_count)
                 for expected in required:
                     self.assertIn(expected, text)
-                self.assertNotIn('fully tested', text.lower())
+                # Honest "not fully tested" wording is not a positive claim.
+                self.assertNotRegex(text.lower(), r'(?<!not )fully tested')
                 self.assertNotIn('like new', text.lower())
         ram = ' '.join(self.page('items/corsair-desktop-ram-pair/index.html').text)
         for unsupported in ('16GB', '8GB', 'DDR4', 'DDR3', '3200MHz'):
