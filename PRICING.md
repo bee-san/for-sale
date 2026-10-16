@@ -66,4 +66,43 @@ Judgement-based provisional ask, subject to confirming the light, alarms, sounds
 - [Lumie manufacturer product page](https://www.lumie.com/products/bodyclock-shine-300): fetched new asking price £149, including a manufacturer warranty. Confirms sunrise/sunset lighting, 15 sounds and FM radio. New retail is context, not a like-for-like used valuation or a warranty offered with this item.
 - eBay search found used listings, but an individual listing could not be fetched and no verified completed-sale price was obtained. £60 is an explicitly provisional estimate, not a sold-comparable valuation.
 
+## RENPHO digital body tape measure: £8
+
+Added 16 October 2026. Provisional quick-sale estimate for the photographed white tape measure, assuming it powers on and the tape is intact. Exact model and app connectivity are not established. No battery or accessories are assumed included.
+
+- [Vinted white RENPHO tape measure](https://www.vinted.co.uk/items/9676581661-renpho-smart-body-tape-measure): fetched asking price **£12** before postage/buyer protection, seller-described as excellent and only used a couple of times. An asking price, not a completed sale or evidence of this unit's condition.
+- [Currys RENPHO Smart Tape Measure](https://www.currys.co.uk/products/renpho-smart-tape-measure-10278546.html): fetched new price **£29.99**, but the detailed page identifies the newer grey PEU-R-Y002-BK model. It is not an exact match to the photographed white unit, so its model-specific battery, app and other specifications have not been copied into the listing.
+
+## WD Red WD30EFRX 3TB hard drive: £15
+
+Added 16 October 2026. Conservative private-sale estimate for an older bare drive with no SMART report or verified test/erasure. Price assumes working operation and acceptable health; revise if faults are found. No health or remaining-life claim is made.
+
+- [PCS4U used WD30EFRX](https://www.pcs4u.co.uk/hard-drives/3-5/western-digital-wd30efrx-3tb-3-5-hard-disk-drive-hdd/): fetched **£38.90**, **out of stock**, with a seller claim of 100% SMART health, testing, secure wiping and 90-day RTB warranty. This unavailable retailer reference is not equivalent to the untested pictured drive or a completed sale.
+
+## Kensington SD5700T Thunderbolt 4 dock: £50
+
+Added 16 October 2026. Label-confirmed model. Judgement-based provisional estimate allowing for noticeable top scratches and unconfirmed PSU/Thunderbolt cable inclusion and testing. Reassess once those are confirmed; no accessories are promised from model specifications alone.
+
+- [Jiils used SD5700T](https://jiils.uk/products/kensington-sd5700t-thunderbolt-4-dual-4k-dock-180w-usb-c-usb-31964): fetched **£125**, seller-described as hand-tested with charger, delivery and a 30-day warranty. This is retailer asking-price context, not a sold comparable, and its condition/accessories differ.
+- [Kensington manufacturer specification](https://www.kensington.com/p/products/device-docking-connectivity-products/laptop-docks-usb-accessories/sd5700t-thunderbolt-4-dual-4k-docking-station-with-90w-pd/): identifies Thunderbolt 4, dual 4K capability and 90W laptop PD. Manufacturer maximums are compatibility-dependent and not testing evidence. Do not confuse the external supply's wattage with laptop power delivery.
+
+## Pair of Corsair desktop RAM modules: £5 for both
+
+Added 16 October 2026. Low-confidence quick-sale placeholder, **not a researched capacity-specific valuation**. Only two desktop DIMMs with Corsair-branded chips are established. Capacity, generation, speed, ECC status, matching-kit status and operation are not confirmed, so no comparable of a guessed specification has been used. Obtain the reverse-side labels or memory test before finalising compatibility and price.
+
+## Wii U and Japanese GamePad with Mario Maker box: £60
+
+Added 16 October 2026. Provisional private-sale estimate allowing for an import, visible wear, unverified operation and incomplete/unconfirmed original contents. No collectible-complete, game entitlement or amiibo premium has been assumed. Major faults would lower the price; verified working hardware or additional original contents may justify revisiting it.
+
+- [Nin-Nin-Game Japanese 30th-anniversary set](https://www.nin-nin-game.com/en/japanese-import-nintendo-wii-u-softs-and-systems/15724-wii-u-white-super-mario-maker-super-mario-bros-30th-set-used-good-condition-en.html): fetched **US$157.76**, marked **Soon available**, seller-described with original packaging, cables, amiibo and booklet. Overseas asking-price context, not a GBP valuation or like-for-like completed sale. Its original 32GB specification and listed contents do not prove this console's storage or contents.
+- The same import reference specifies Japanese menus/software compatibility and warns that its supplied 110V adaptors require a step-down converter for 240V countries. The photographed adaptor's actual input rating must be checked; do not infer UK mains compatibility or connect a 100/110V-only supply directly to 230V.
+- PriceCharting search results were too sparse and mixed new/complete/box-only examples to justify a UK used-complete premium. No converted USD valuation or verified completed-sale range is claimed.
+
+## UGREEN CM666 Steam Deck dock: £15
+
+Added 16 October 2026. Label-confirmed CM666 model. Provisional used estimate assuming working operation, for the dock and its attached host lead only; no separate power supply or display/network cables are assumed included.
+
+- [UK eBay CM666 reference](https://www.ebay.co.uk/itm/127126219449): search-indexed asking price **£29.97 including buyer protection**, with postage advertised as free. Not a completed sale or a directly fetched price; condition and availability may differ. Treat this as weaker indexed context only.
+- The Amazon page returned a shopping-interstitial rather than a usable product page, so no Amazon price or unverified specification has been used.
+
 No private negotiation floors, personal purchase-account details or unredacted device serials are included here.

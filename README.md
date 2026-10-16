@@ -55,7 +55,7 @@ Below the front matter, describe the item, what is included, known defects and a
 
 ## Add item photos
 
-Use your own photographs, rotate them upright and resize sensibly. Strip EXIF, especially GPS data, before adding images. Check backgrounds, labels, serial numbers, barcodes and reflections. The public LG label copy has its serial and barcode covered; unredacted originals are not in this repository.
+Use your own photographs, rotate them upright and resize sensibly. Strip EXIF, especially GPS data, before adding images. Check backgrounds, labels, serial numbers, MAC addresses, barcodes and reflections. Public label photos have unique identifiers covered, including the LG, WD hard drive, Kensington dock and Wii U GamePad. Unredacted originals are not in this repository. Duplicate attachments and extra views of the same hardware are not additional units or listings.
 
 Add photos to `assets/images/` and reference them using a path beginning `/assets/images/`. For extra photos inside a description, apply Jekyll's `relative_url` filter so the `/for-sale/` project path is preserved.
 

@@ -27,6 +27,12 @@ ITEMS = {
     'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£5', '3 September 2026'),
     'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£5', 'dust jacket'),
     'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£60', 'not verified'),
+    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£8', 'Bluetooth'),
+    'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£15', 'SMART'),
+    'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£50', 'Power supply'),
+    'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£5', 'DDR generation'),
+    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£60', 'step-down'),
+    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£15', 'attached host lead'),
 }
 
 
@@ -187,6 +193,40 @@ class SaleSiteTests(unittest.TestCase):
         self.assertNotIn('fully tested', text.lower())
         self.assertNotIn('SN 2026/', text)
         self.assertNotIn('Bluetooth', text)
+
+    def test_new_photo_batches_are_six_listings_not_duplicate_units(self):
+        evidence = {
+            'renpho-smart-tape-measure': (1, ('display is off', 'Exact model',
+                                             'not been verified for this unit')),
+            'wd-red-3tb': (1, ('WD30EFRX', '64MB', 'not an SSD', 'SMART health',
+                              'unconfirmed', 'secure data erasure', 'WWN')),
+            'kensington-sd5700t': (4, ('noticeable scratches', '90W',
+                                      'not a test of this unit',
+                                      'Power supply and Thunderbolt host cable inclusion are unconfirmed',
+                                      'MAC address')),
+            'corsair-desktop-ram-pair': (1, ('both modules together', 'DDR generation',
+                                            'unconfirmed', 'not advertised as a matched kit')),
+            'wii-u-mario-maker-bundle': (4, ('WUP-010(JPN)', 'Not confirmed complete',
+                                            'not promised', 'step-down transformer',
+                                            'plug-shape adaptor alone does not convert voltage',
+                                            'region', 'serial barcode is redacted')),
+            'ugreen-steam-deck-dock': (2, ('UGREEN CM666', 'not Valve',
+                                          'Dock with its attached host lead only',
+                                          'power adaptor', 'confirm')),
+        }
+        self.assertEqual(len(evidence), 6)
+        for slug, (photo_count, required) in evidence.items():
+            with self.subTest(item=slug):
+                page = self.page(f'items/{slug}/index.html')
+                text = ' '.join(' '.join(page.text).split())
+                self.assertEqual(len(page.images), photo_count)
+                for expected in required:
+                    self.assertIn(expected, text)
+                self.assertNotIn('fully tested', text.lower())
+                self.assertNotIn('like new', text.lower())
+        ram = ' '.join(self.page('items/corsair-desktop-ram-pair/index.html').text)
+        for unsupported in ('16GB', '8GB', 'DDR4', 'DDR3', '3200MHz'):
+            self.assertNotIn(unsupported, ram)
 
     def test_public_copy_does_not_expose_private_contact_or_local_paths(self):
         for path in ['index.html'] + [f'items/{slug}/index.html' for slug in ITEMS]:

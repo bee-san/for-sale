@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "For sale · London"
-description: "An LG 4K monitor, Xbox 360 bundle, Digimon collectibles and a Russell Hobbs coffee maker. Personal sale listings in London, with estimated GBP prices."
+description: "Personal sale listings in London: computers, docks, games consoles, books, collectibles and home items, with estimated GBP prices."
 ---
 {% assign available_items = site.items | where: "status", "available" | sort: "order" %}
 {% assign pending_items = site.items | where: "status", "pending" | sort: "order" %}
@@ -10,7 +10,7 @@ description: "An LG 4K monitor, Xbox 360 bundle, Digimon collectibles and a Russ
 <section class="sale-intro" aria-labelledby="intro-title">
   <p class="eyebrow">A personal clear-out · London</p>
   <h1 id="intro-title">Bee's London<br>clear-out<span class="accent-dot">.</span></h1>
-  <p class="sale-intro__copy">Desk gear, Japanese games, Digimon and coffee. A few things looking for a new home.</p>
+  <p class="sale-intro__copy">Desk gear, games, books and home bits. A few things looking for a new home.</p>
   <div class="sale-intro__facts"><span>Collection by arrangement</span><span>Prices in GBP</span><span>Offers welcome</span></div>
 </section>
 
