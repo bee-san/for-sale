@@ -13,6 +13,17 @@ The site contains photographed electronics, home items, books and Japanese publi
 
 Open **https://bee-san.github.io/for-sale/vinted/** for a title, description and current GBP asking price for every item. Each field has its own Copy button and a selectable-text fallback when clipboard access is blocked. Nothing is posted to Vinted automatically.
 
+Each item also has a **Download images** ZIP button and individual photo download links; the page has an all-photos ZIP with a folder for each item. Unzip bundles before selecting images in Vinted. Only the already-public, privacy-cleaned photos are included.
+
+After adding or changing listing photos, regenerate the committed bundles and manifest:
+
+```sh
+python3 scripts/build_photo_downloads.py
+python3 scripts/build_photo_downloads.py --check
+```
+
+CI verifies archive contents against the exact current public photo bytes and rejects stale downloads. Do not feed private originals into the generator.
+
 Draft wording and seller-only checks are in `_data/vinted_drafts.json`. Prices are read from `_items/*.md`, so do not put prices in the draft data. `ready`, `check` and `other` control the workspace groups. Known faults and testing uncertainty stay in buyer descriptions; preparation, packing and policy checks stay outside the copied fields. A draft is not a guarantee of Vinted eligibility.
 
 All existing asking prices were reduced for a bargain clear-out. The newly photographed Flesh and Blood playmat is included; repeated photos are not extra stock. Old pricing research below the current summary in `PRICING.md` is historical, not the current asking price.

@@ -94,6 +94,8 @@ figcaption { padding: 0.75rem 1rem; background: var(--surface); }
 .sold-items { margin-block: 2rem; padding: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-surface); }
 .sold-items summary { cursor: pointer; font-weight: var(--weight-medium); }
 .item-grid--sold { margin-bottom: 0; }
+.photo-downloads__files { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; padding: 0; list-style: none; }
+.photo-downloads { padding-block: 0.5rem; border-block: 1px solid var(--border); }
 .draft-nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; margin-block: 1.5rem; }
 .copy-status { padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--surface); font-size: var(--font-small); }
 .draft-group { margin-block: 2.5rem; }
