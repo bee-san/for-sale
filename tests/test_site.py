@@ -27,12 +27,17 @@ ITEMS = {
     'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£5', '3 September 2026'),
     'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£5', 'dust jacket'),
     'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£60', 'not verified'),
-    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£8', 'Bluetooth'),
+    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£5', 'Bluetooth'),
     'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£15', 'SMART'),
     'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£50', 'Power supply'),
     'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£5', 'DDR generation'),
-    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£60', 'step-down'),
-    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£15', 'attached host lead'),
+    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£40', 'step-down'),
+    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£10', 'attached host lead'),
+    'pro-breeze-pb03': ('Pro Breeze PB-03-UK 1.5L mini dehumidifier', '£10', '1500ml'),
+    'honeywell-ht900e': ('Honeywell HT900E desk fan', '£8', 'EFN900DC'),
+    'sony-dualshock-4-white': ('Sony DualShock 4 PS4 controller, white', '£10', 'stick drifts'),
+    'yarn-bundle': ('Mixed yarn bundle, yellow, teal and dark blue', '£3', 'fibre content'),
+    'needle-felting-tools-bundle': ('Needle-felting tools and foam pad bundle', '£5', 'not a confirmed complete'),
 }
 
 
@@ -210,7 +215,7 @@ class SaleSiteTests(unittest.TestCase):
                                             'not promised', 'step-down transformer',
                                             'plug-shape adaptor alone does not convert voltage',
                                             'region', 'serial barcode is redacted')),
-            'ugreen-steam-deck-dock': (2, ('UGREEN CM666', 'not Valve',
+            'ugreen-steam-deck-dock': (3, ('UGREEN CM666', 'not Valve',
                                           'Dock with its attached host lead only',
                                           'power adaptor', 'confirm')),
         }
@@ -228,6 +233,30 @@ class SaleSiteTests(unittest.TestCase):
         ram = ' '.join(self.page('items/corsair-desktop-ram-pair/index.html').text)
         for unsupported in ('16GB', '8GB', 'DDR4', 'DDR3', '3200MHz'):
             self.assertNotIn(unsupported, ram)
+
+    def test_bargain_batch_is_eight_items_without_duplicate_existing_listings(self):
+        expected = {
+            'pro-breeze-pb03': ('£10', 2, ('1500ml', 'not a daily extraction rate', 'Power adaptor inclusion is unconfirmed')),
+            'honeywell-ht900e': ('£8', 2, ('HT900E', 'visible dust', 'confirm')),
+            'sony-dualshock-4-white': ('£10', 2, ('Controller only', 'stick drifts', 'hardware revision')),
+            'yarn-bundle': ('£3', 1, ('entire bag', 'not advertised as pure wool', 'remaining length')),
+            'needle-felting-tools-bundle': ('£5', 2, ('not a confirmed complete', 'Sharp needles', 'separate yarn bundle is not included')),
+            'renpho-smart-tape-measure': ('£5', 1, ('not been verified for this unit',)),
+            'wii-u-mario-maker-bundle': ('£40', 4, ('step-down transformer', 'Not confirmed complete')),
+            'ugreen-steam-deck-dock': ('£10', 3, ('attached host lead only', 'Front view')),
+        }
+        self.assertEqual(len(expected), 8)
+        home = self.page('index.html')
+        for slug, (price, count, details) in expected.items():
+            with self.subTest(item=slug):
+                self.assertEqual(home.links.count('/for-sale/items/' + slug + '/'), 3)
+                page = self.page(f'items/{slug}/index.html')
+                text = ' '.join(' '.join(page.text).split())
+                self.assertEqual(len(page.images), count)
+                self.assertIn(price, text)
+                for detail in details:
+                    self.assertIn(detail, text)
+                self.assertNotRegex(text.lower(), r'(?<!not )fully tested')
 
     def test_public_copy_does_not_expose_private_contact_or_local_paths(self):
         for path in ['index.html'] + [f'items/{slug}/index.html' for slug in ITEMS]:

@@ -66,7 +66,7 @@ Judgement-based provisional ask, subject to confirming the light, alarms, sounds
 - [Lumie manufacturer product page](https://www.lumie.com/products/bodyclock-shine-300): fetched new asking price £149, including a manufacturer warranty. Confirms sunrise/sunset lighting, 15 sounds and FM radio. New retail is context, not a like-for-like used valuation or a warranty offered with this item.
 - eBay search found used listings, but an individual listing could not be fetched and no verified completed-sale price was obtained. £60 is an explicitly provisional estimate, not a sold-comparable valuation.
 
-## RENPHO digital body tape measure: £8
+## RENPHO digital body tape measure: £5
 
 Added 16 October 2026. Provisional quick-sale estimate for the photographed white tape measure, assuming it powers on and the tape is intact. Exact model and app connectivity are not established. No battery or accessories are assumed included.
 
@@ -90,7 +90,7 @@ Added 16 October 2026. Label-confirmed model. Judgement-based provisional estima
 
 Added 16 October 2026. Low-confidence quick-sale placeholder, **not a researched capacity-specific valuation**. Only two desktop DIMMs with Corsair-branded chips are established. Capacity, generation, speed, ECC status, matching-kit status and operation are not confirmed, so no comparable of a guessed specification has been used. Obtain the reverse-side labels or memory test before finalising compatibility and price.
 
-## Wii U and Japanese GamePad with Mario Maker box: £60
+## Wii U and Japanese GamePad with Mario Maker box: £40
 
 Added 16 October 2026. Provisional private-sale estimate allowing for an import, visible wear, unverified operation and incomplete/unconfirmed original contents. No collectible-complete, game entitlement or amiibo premium has been assumed. Major faults would lower the price; verified working hardware or additional original contents may justify revisiting it.
 
@@ -98,11 +98,32 @@ Added 16 October 2026. Provisional private-sale estimate allowing for an import,
 - The same import reference specifies Japanese menus/software compatibility and warns that its supplied 110V adaptors require a step-down converter for 240V countries. The photographed adaptor's actual input rating must be checked; do not infer UK mains compatibility or connect a 100/110V-only supply directly to 230V.
 - PriceCharting search results were too sparse and mixed new/complete/box-only examples to justify a UK used-complete premium. No converted USD valuation or verified completed-sale range is claimed.
 
-## UGREEN CM666 Steam Deck dock: £15
+## UGREEN CM666 Steam Deck dock: £10
 
 Added 16 October 2026. Label-confirmed CM666 model. Provisional used estimate assuming working operation, for the dock and its attached host lead only; no separate power supply or display/network cables are assumed included.
 
 - [UK eBay CM666 reference](https://www.ebay.co.uk/itm/127126219449): search-indexed asking price **£29.97 including buyer protection**, with postage advertised as free. Not a completed sale or a directly fetched price; condition and availability may differ. Treat this as weaker indexed context only.
 - The Amazon page returned a shopping-interstitial rather than a usable product page, so no Amazon price or unverified specification has been used.
+
+## Bargain photo batch, 17 October 2026
+
+The seller requested bargain prices. Fifteen attachments represent eight distinct items or bundles: five new listings and three existing listings. Repeated RENPHO, Wii U and UGREEN views are not extra units. The UGREEN front view is new and has been added to its existing listing.
+
+Current provisional quick-sale asking prices:
+
+- Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£10**.
+- Honeywell HT900E fan: **£8**.
+- White Sony DualShock 4 PS4 controller: **£10**.
+- Mixed yarn, whole pictured bag: **£3**.
+- Needle-felting tools and foam pad, whole pictured bag: **£5**.
+- RENPHO tape measure: **£5**, reduced from the previous £8 estimate.
+- Wii U bundle: **£40**, reduced from the previous £60 estimate.
+- UGREEN CM666 dock: **£10**, reduced from the previous £15 estimate.
+
+These are seller-directed, judgement-based low asking prices, not verified completed-sale values or guarantees of operation. Electrical operation, battery health, accessory inclusion and kit completeness remain unconfirmed where the listing says so. Other inventory prices are unchanged.
+
+The dehumidifier's own label identifies PB-03-UK, 1500ml and 40W. The [manufacturer's current 1500ml mini-dehumidifier page](https://probreeze.com/products/1500ml-mini-dehumidifier), fetched for this update, lists **£54.99 new** and a 1.5L water tank. Its current SKU is PB-D-03 and its specification table contains an inconsistent generic capacity entry. Only the photographed unit's label is used for its capacity/model claims; no running-cost, extraction-performance or exact-current-generation claim is copied. Retail price is weak context only, not a like-for-like used valuation.
+
+No reliable completed-sale comparables were obtained for the fan, controller or craft supplies. Yarn fibre content/weight and felting-tool quantities remain unconfirmed. Serial/barcode identifiers were covered and image metadata stripped before publication.
 
 No private negotiation floors, personal purchase-account details or unredacted device serials are included here.
