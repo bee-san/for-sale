@@ -1,6 +1,6 @@
 ---
 title: "Xbox 360 & Japanese game bundle"
-price: "35"
+price: "20"
 currency: "£"
 estimated: true
 order: 2
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/xbox-bundle.jpg
 image_alt: "White original-style Xbox 360 with a white controller, cable and six Japanese game cases."
 summary: "White Xbox 360, a controller and six Japanese game cases, including Blue Dragon and Ace Combat 6."
-description: "White Xbox 360 with controller and six Japanese game cases. Estimated asking price £35, London collection. Region and working condition unconfirmed."
+description: "White Xbox 360 with controller and six Japanese game cases. Estimated asking price £20, London collection. Region and working condition unconfirmed."
 ---
 ## About the bundle
 
@@ -38,6 +38,6 @@ The cases have not been opened for this listing. Disc presence, disc condition a
 
 ## Condition and price
 
-**£35 is a provisional estimated asking price for the bundle**, subject to working condition, compatible discs and included accessories being confirmed. The console is not shown powered on. Booting, disc reading, controller function and any red-ring faults have not been checked for this listing.
+**£20 is a provisional estimated asking price for the bundle**, subject to working condition, compatible discs and included accessories being confirmed. The console is not shown powered on. Booting, disc reading, controller function and any red-ring faults have not been checked for this listing.
 
 Collection in London, by arrangement. Please ask for a boot-up test and a contents check before agreeing a purchase.

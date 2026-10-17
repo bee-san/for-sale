@@ -1,6 +1,6 @@
 ---
 title: "Sony DualShock 4 PS4 controller, white"
-price: "10"
+price: "5"
 currency: "£"
 estimated: true
 order: 26
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/sony-dualshock-4-front.jpg"
 image_alt: "White Sony DualShock 4 controller with black sticks, touchpad and PlayStation buttons."
 summary: "White PS4 controller with visible use. Controller only; stick drift, charging and battery untested."
-description: "Sony DualShock 4 PS4 controller, white. Bargain estimated asking price £10. Condition and contents to confirm. London collection by arrangement."
+description: "Sony DualShock 4 PS4 controller, white. Bargain estimated asking price £5. Condition and contents to confirm. London collection by arrangement."
 ---
 ## About this item
 
@@ -31,4 +31,4 @@ Please confirm buttons, triggers, touchpad, wireless pairing, USB charging, batt
 
 ## Price and collection
 
-**£10 provisional asking price**, allowing for the visible wear and unconfirmed testing. Chosen for a quick sale, not a researched market valuation. Offers welcome. Collection in London, by arrangement.
+**£5 provisional asking price**, allowing for the visible wear and unconfirmed testing. Chosen for a quick sale, not a researched market valuation. Offers welcome. Collection in London, by arrangement.

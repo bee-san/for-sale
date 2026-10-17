@@ -9,6 +9,14 @@ A small, static GitHub Pages + Jekyll site for personal sale listings.
 
 The site contains photographed electronics, home items, books and Japanese publications. Prices are provisional GBP estimates. Condition, contents and testing limits are described in each listing. The P51's i7-7820HQ and 32GB RAM are photo-confirmed. An SSD is included; Windows shows 237GB and 447GB volumes, but physical drive specifications remain unconfirmed. See [pricing evidence and limitations](PRICING.md).
 
+## Vinted copy-and-paste page
+
+Open **https://bee-san.github.io/for-sale/vinted/** for a title, description and current GBP asking price for every item. Each field has its own Copy button and a selectable-text fallback when clipboard access is blocked. Nothing is posted to Vinted automatically.
+
+Draft wording and seller-only checks are in `_data/vinted_drafts.json`. Prices are read from `_items/*.md`, so do not put prices in the draft data. `ready`, `check` and `other` control the workspace groups. Known faults and testing uncertainty stay in buyer descriptions; preparation, packing and policy checks stay outside the copied fields. A draft is not a guarantee of Vinted eligibility.
+
+All existing asking prices were reduced for a bargain clear-out. The newly photographed Flesh and Blood playmat is included; repeated photos are not extra stock. Old pricing research below the current summary in `PRICING.md` is historical, not the current asking price.
+
 ## Run locally
 
 Use Ruby 3.3, Bundler and Python 3. Modern Ruby is required; macOS's system Ruby 2.6 is not supported by this lockfile. CI uses Ruby 3.3.

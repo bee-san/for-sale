@@ -11,6 +11,7 @@ description: "Personal sale listings in London: computers, docks, games consoles
   <p class="eyebrow">A personal clear-out · London</p>
   <h1 id="intro-title">Bee's London<br>clear-out<span class="accent-dot">.</span></h1>
   <p class="sale-intro__copy">Desk gear, games, books and home bits. A few things looking for a new home.</p>
+  <p><a href="{{ '/vinted/' | relative_url }}">Vinted copy-and-paste drafts →</a></p>
   <div class="sale-intro__facts"><span>Collection by arrangement</span><span>Prices in GBP</span><span>Offers welcome</span></div>
 </section>
 

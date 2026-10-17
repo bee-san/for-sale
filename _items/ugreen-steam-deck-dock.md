@@ -1,6 +1,6 @@
 ---
 title: "UGREEN CM666 Steam Deck USB-C dock"
-price: "10"
+price: "7"
 currency: "£"
 estimated: true
 order: 23
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/ugreen-steam-deck-dock-ports.jpg
 image_alt: "Grey UGREEN handheld gaming dock with integrated USB-C lead and visible USB-C, HDMI, Ethernet and USB-A ports."
 summary: "Aluminium-style Steam Deck stand/dock with an attached USB-C host lead, HDMI, Ethernet and USB ports. Power adaptor not shown."
-description: "Used UGREEN CM666 USB-C docking station for Steam Deck, estimated £10. Integrated host cable included; charging, video and accessories to confirm. London collection."
+description: "Used UGREEN CM666 USB-C docking station for Steam Deck, estimated £7. Integrated host cable included; charging, video and accessories to confirm. London collection."
 ---
 ## About this dock
 
@@ -37,4 +37,4 @@ Used, with visible surface marks. The photos do not show the dock operating. Ple
 
 ## Price and collection
 
-**£10 is a provisional estimated asking price**, subject to confirmation of working operation. Offers welcome. Collection in London, by arrangement.
+**£7 is a provisional estimated asking price**, subject to confirmation of working operation. Offers welcome. Collection in London, by arrangement.

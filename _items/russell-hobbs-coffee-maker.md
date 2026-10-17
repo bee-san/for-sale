@@ -1,6 +1,6 @@
 ---
 title: "Russell Hobbs Brew & Go coffee maker"
-price: "10"
+price: "5"
 currency: "£"
 estimated: true
 order: 4
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/coffee-maker.jpg
 image_alt: "Black and brushed stainless steel Russell Hobbs single-cup coffee maker with drip tray; no mug pictured."
 summary: "Compact black and stainless steel single-cup coffee maker. No travel mug pictured."
-description: "Russell Hobbs Brew & Go-style coffee maker, likely model 22630. Estimated asking price £10, London collection. Model and operation unconfirmed."
+description: "Russell Hobbs Brew & Go-style coffee maker, likely model 22630. Estimated asking price £5, London collection. Model and operation unconfirmed."
 ---
 ## About the coffee maker
 
@@ -30,7 +30,7 @@ The original travel mug is **not confirmed as included**. The internal filter / 
 
 ## Condition and price
 
-**£10 is a provisional estimated asking price**, allowing for the missing/unconfirmed mug and subject to working condition being confirmed. There is visible wear from use. A brew test, cleaning/descaling status and electrical condition have not been confirmed for this listing.
+**£5 is a provisional estimated asking price**, allowing for the missing/unconfirmed mug and subject to working condition being confirmed. There is visible wear from use. A brew test, cleaning/descaling status and electrical condition have not been confirmed for this listing.
 
 Collection in London, by arrangement. Please ask for the model number, accessory check and a brew test before agreeing a purchase.
 

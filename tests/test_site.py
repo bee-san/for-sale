@@ -10,34 +10,35 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get('SALE_BASE_URL', '')
 ITEMS = {
-    'lg-smart-monitor': ('LG 32SQ780S-W', '£180', 'power supply'),
-    'xbox-360-bundle': ('Xbox 360', '£35', 'region'),
-    'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£50', 'Black Roar'),
-    'russell-hobbs-coffee-maker': ('Russell Hobbs', '£10', 'travel mug'),
-    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£200', 'i7-7820HQ'),
-    'jurassic-park': ('Jurassic Park by Michael Crichton', '£2', 'creased'),
-    'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£10', 'Signed by Mary Beard'),
-    'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£5', 'B1-B2'),
-    'dandadan-vol-1-japanese': ('Dandadan volume 1, Japanese edition', '£3', 'Japanese-language'),
-    'demon-slayer-rengoku-zero': ('Demon Slayer Rengoku Volume 0, Japanese booklet', '£8', 'booklet'),
-    'the-secret-history': ('The Secret History by Donna Tartt', '£2', 'creased'),
-    'japanese-keigo-handbook': ('Japanese keigo handbook', '£2', 'stained'),
-    'tapo-doorbell': ('Tapo D205 video doorbell', '£20', '3M'),
-    'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£40', 'broken screen'),
-    'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£5', '3 September 2026'),
-    'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£5', 'dust jacket'),
-    'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£60', 'not verified'),
-    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£5', 'Bluetooth'),
-    'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£15', 'SMART'),
-    'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£50', 'Power supply'),
-    'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£5', 'DDR generation'),
-    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£40', 'step-down'),
-    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£10', 'attached host lead'),
-    'pro-breeze-pb03': ('Pro Breeze PB-03-UK 1.5L mini dehumidifier', '£10', '1500ml'),
-    'honeywell-ht900e': ('Honeywell HT900E desk fan', '£8', 'EFN900DC'),
-    'sony-dualshock-4-white': ('Sony DualShock 4 PS4 controller, white', '£10', 'stick drifts'),
-    'yarn-bundle': ('Mixed yarn bundle, yellow, teal and dark blue', '£3', 'fibre content'),
-    'needle-felting-tools-bundle': ('Needle-felting tools and foam pad bundle', '£5', 'not a confirmed complete'),
+    'lg-smart-monitor': ('LG 32SQ780S-W', '£100', 'power supply'),
+    'xbox-360-bundle': ('Xbox 360', '£20', 'region'),
+    'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£20', 'Black Roar'),
+    'russell-hobbs-coffee-maker': ('Russell Hobbs', '£5', 'travel mug'),
+    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£100', 'i7-7820HQ'),
+    'jurassic-park': ('Jurassic Park by Michael Crichton', '£1', 'creased'),
+    'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£5', 'Signed by Mary Beard'),
+    'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£2', 'B1-B2'),
+    'dandadan-vol-1-japanese': ('Dandadan volume 1, Japanese edition', '£1', 'Japanese-language'),
+    'demon-slayer-rengoku-zero': ('Demon Slayer Rengoku Volume 0, Japanese booklet', '£3', 'booklet'),
+    'the-secret-history': ('The Secret History by Donna Tartt', '£1', 'creased'),
+    'japanese-keigo-handbook': ('Japanese keigo handbook', '£1', 'stained'),
+    'tapo-doorbell': ('Tapo D205 video doorbell', '£10', '3M'),
+    'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£20', 'broken screen'),
+    'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£2', '3 September 2026'),
+    'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£2', 'dust jacket'),
+    'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£25', 'not verified'),
+    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£3', 'Bluetooth'),
+    'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£8', 'SMART'),
+    'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£25', 'Power supply'),
+    'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£3', 'DDR generation'),
+    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£30', 'step-down'),
+    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£7', 'attached host lead'),
+    'pro-breeze-pb03': ('Pro Breeze PB-03-UK 1.5L mini dehumidifier', '£5', '1500ml'),
+    'honeywell-ht900e': ('Honeywell HT900E desk fan', '£4', 'EFN900DC'),
+    'sony-dualshock-4-white': ('Sony DualShock 4 PS4 controller, white', '£5', 'stick drifts'),
+    'yarn-bundle': ('Mixed yarn bundle, yellow, teal and dark blue', '£2', 'fibre content'),
+    'needle-felting-tools-bundle': ('Needle-felting tools and foam pad bundle', '£3', 'not a confirmed complete'),
+    'flesh-and-blood-playmat': ('Flesh and Blood trading card game playmat', '£5', 'Playmat only'),
 }
 
 
@@ -164,7 +165,7 @@ class SaleSiteTests(unittest.TestCase):
         text = ' '.join(' '.join(page.text).split())
         self.assertIn('Signed by Mary Beard', text)
         self.assertIn('Good used condition', text)
-        self.assertIn('£10', text)
+        self.assertIn('£5', text)
         self.assertNotIn('No signature has been checked', text)
         self.assertNotIn('some visible jacket wear', text)
 
@@ -173,7 +174,7 @@ class SaleSiteTests(unittest.TestCase):
         text = ' '.join(' '.join(page.text).split())
         self.assertIn('broken screen', text)
         self.assertIn('repair or spares', text)
-        self.assertIn('£40', text)
+        self.assertIn('£20', text)
         self.assertNotIn('does not demonstrate either working operation or a fault', text)
         card = next(fragment for fragment in get('index.html').decode().split('<article')
                     if '/items/thinkpad-x1-carbon-gen5/' in fragment).split('</article>')[0]
@@ -236,14 +237,14 @@ class SaleSiteTests(unittest.TestCase):
 
     def test_bargain_batch_is_eight_items_without_duplicate_existing_listings(self):
         expected = {
-            'pro-breeze-pb03': ('£10', 2, ('1500ml', 'not a daily extraction rate', 'Power adaptor inclusion is unconfirmed')),
-            'honeywell-ht900e': ('£8', 2, ('HT900E', 'visible dust', 'confirm')),
-            'sony-dualshock-4-white': ('£10', 2, ('Controller only', 'stick drifts', 'hardware revision')),
-            'yarn-bundle': ('£3', 1, ('entire bag', 'not advertised as pure wool', 'remaining length')),
-            'needle-felting-tools-bundle': ('£5', 2, ('not a confirmed complete', 'Sharp needles', 'separate yarn bundle is not included')),
-            'renpho-smart-tape-measure': ('£5', 1, ('not been verified for this unit',)),
-            'wii-u-mario-maker-bundle': ('£40', 4, ('step-down transformer', 'Not confirmed complete')),
-            'ugreen-steam-deck-dock': ('£10', 3, ('attached host lead only', 'Front view')),
+            'pro-breeze-pb03': ('£5', 2, ('1500ml', 'not a daily extraction rate', 'Power adaptor inclusion is unconfirmed')),
+            'honeywell-ht900e': ('£4', 2, ('HT900E', 'visible dust', 'confirm')),
+            'sony-dualshock-4-white': ('£5', 2, ('Controller only', 'stick drifts', 'hardware revision')),
+            'yarn-bundle': ('£2', 1, ('entire bag', 'not advertised as pure wool', 'remaining length')),
+            'needle-felting-tools-bundle': ('£3', 2, ('not a confirmed complete', 'Sharp needles', 'separate yarn bundle is not included')),
+            'renpho-smart-tape-measure': ('£3', 1, ('not been verified for this unit',)),
+            'wii-u-mario-maker-bundle': ('£30', 4, ('step-down transformer', 'Not confirmed complete')),
+            'ugreen-steam-deck-dock': ('£7', 3, ('attached host lead only', 'Front view')),
         }
         self.assertEqual(len(expected), 8)
         home = self.page('index.html')

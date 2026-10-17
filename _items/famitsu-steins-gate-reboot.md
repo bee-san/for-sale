@@ -1,6 +1,6 @@
 ---
 title: "Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover"
-price: "5"
+price: "2"
 currency: "£"
 estimated: true
 order: 15
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/famitsu-steins-gate-reboot.jpg"
 image_alt: "Weekly Famitsu magazine with Kurisu Makise on the Steins;Gate Re:Boot cover."
 summary: "Japanese gaming magazine with a Steins;Gate Re:Boot cover and feature."
-description: "Weekly Famitsu No. 1960, dated 3 September 2026, with a Steins;Gate Re:Boot cover. Provisional estimated asking price £5. London collection by arrangement."
+description: "Weekly Famitsu No. 1960, dated 3 September 2026, with a Steins;Gate Re:Boot cover. Provisional estimated asking price £2. London collection by arrangement."
 ---
 ## About this item
 
@@ -23,4 +23,4 @@ Used, with light cover and edge wear visible in the photo. Interior pages, bindi
 
 ## Price and collection
 
-**£5 is a provisional estimated asking price.** Please confirm the interior condition and contents before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
+**£2 is a provisional estimated asking price.** Please confirm the interior condition and contents before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

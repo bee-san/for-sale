@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: /vinted/manifest.json
+---
+[
+{% for draft in site.data.vinted_drafts %}
+{% assign listing = site.items | where: 'slug', draft.slug | first %}
+{"slug":{{ draft.slug | jsonify }},"title":{{ draft.title | jsonify }},"description":{{ draft.description | jsonify }},"price":{{ listing.price | jsonify }},"readiness":{{ draft.readiness | jsonify }},"reason":{{ draft.reason | jsonify }},"checks":{{ draft.checks | jsonify }},"packing":{{ draft.packing | jsonify }},"suggested_condition":{{ draft.suggested_condition | jsonify }}}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

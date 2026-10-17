@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Vinted copy-and-paste drafts"
+description: "Copyable titles, descriptions and bargain GBP prices for Bee's clear-out, with seller-only condition and packing checks kept separate."
+permalink: /vinted/
+---
+<section class="sale-intro draft-intro">
+  <p class="eyebrow">Seller workspace</p>
+  <h1>Vinted drafts<span class="accent-dot">.</span></h1>
+  <p class="sale-intro__copy">Copy a title, description and price into the matching Vinted fields. All prices come from the live sale listings.</p>
+  <p><a href="{{ '/' | relative_url }}">← Back to the sale catalogue</a></p>
+</section>
+<aside class="sale-note"><strong>Nothing is posted automatically.</strong> This is a public preparation page, not a Vinted integration. Condition, contents, photos and the available Vinted category must be checked before publishing. Buyer descriptions retain known faults and uncertainty; seller checklists below are not included in copied text.</aside>
+<nav class="draft-nav" aria-label="Draft groups">
+  <a href="#ready">Ready to copy</a><a href="#check">Check before listing</a><a href="#other">Use another marketplace</a>
+</nav>
+<p id="copy-status" class="copy-status" role="status" aria-live="polite">Select a Copy button, or select the text manually.</p>
+{% assign groups = 'ready,check,other' | split: ',' %}
+{% for group in groups %}
+{% assign drafts = site.data.vinted_drafts | where: 'readiness', group %}
+<section class="draft-group" aria-labelledby="{{ group }}">
+  <div class="section-heading"><h2 id="{{ group }}">{% if group == 'ready' %}Ready to copy{% elsif group == 'check' %}Check before listing{% else %}Use another marketplace{% endif %}</h2><span>{{ drafts.size }} items</span></div>
+  {% if group == 'ready' %}<p>Start here. Inspect each item, add your own photos and select the condition that matches it.</p>{% elsif group == 'check' %}<p>Drafts are prepared, but these are not cleared for publication yet. Complete the tests, contents and category checks shown for each item first. Do not select a working condition without testing.</p>{% else %}<p>Copy is provided for completeness, but these are not recommended as Vinted-ready listings. Use a suitable alternative unless Vinted confirms eligibility and the item meets its rules.</p>{% endif %}
+  {% for draft in drafts %}
+  {% assign listing = site.items | where: 'slug', draft.slug | first %}
+  <details class="draft-card" id="draft-{{ draft.slug }}"{% if group == 'ready' %} open{% endif %}>
+    <summary><span>{{ draft.title | escape }}</span><strong>£{{ listing.price | escape }}</strong></summary>
+    <div class="draft-card__body">
+      <p class="draft-reason">{{ draft.reason | escape }}</p>
+      <p><a href="{{ listing.url | relative_url }}">View original listing and photos</a></p>
+      <div class="copy-field">
+        <div class="copy-field__heading"><label for="title-{{ draft.slug }}">Title</label><button class="button" type="button" data-copy-target="title-{{ draft.slug }}">Copy title</button></div>
+        <textarea id="title-{{ draft.slug }}" rows="2" readonly spellcheck="false">{{ draft.title | escape }}</textarea>
+      </div>
+      <div class="copy-field">
+        <div class="copy-field__heading"><label for="description-{{ draft.slug }}">Description</label><button class="button" type="button" data-copy-target="description-{{ draft.slug }}">Copy description</button></div>
+        <textarea id="description-{{ draft.slug }}" rows="7" readonly spellcheck="false">{{ draft.description | escape }}</textarea>
+      </div>
+      <div class="copy-field copy-field--price">
+        <div class="copy-field__heading"><label for="price-{{ draft.slug }}">Price in GBP, excluding postage</label><button class="button" type="button" data-copy-target="price-{{ draft.slug }}">Copy price</button></div>
+        <textarea id="price-{{ draft.slug }}" rows="1" readonly spellcheck="false" inputmode="numeric">{{ listing.price | escape }}</textarea>
+      </div>
+      <aside class="seller-checks" aria-label="Seller checks for {{ draft.title | escape }}">
+        <h3>Before publishing</h3>
+        <p><strong>Suggested condition:</strong> {{ draft.suggested_condition | escape }}</p>
+        <ul>{% for check in draft.checks %}<li>{{ check | escape }}</li>{% endfor %}</ul>
+        <p><strong>Packing:</strong> {{ draft.packing | escape }}</p>
+      </aside>
+    </div>
+  </details>
+  {% endfor %}
+</section>
+{% endfor %}
+<section class="how-to-buy">
+  <h2>Rules and postage checks</h2>
+  <p>Categories are suggestions, not guaranteed acceptance. Vinted's UK rules include electronics, small kitchen appliances, books and craft supplies, but exclude some products, including security cameras and electronics not intended for the EEA market. A video doorbell needs its own category check. Imported Japanese consoles and a known broken-screen laptop are not treated as ready to list.</p>
+  <p>Use protective packaging appropriate to the actual item. A mailing bag alone does not protect electronics or sharp tools. Check the sealed parcel's packed dimensions and weight against the service Vinted offers before choosing postage. No parcel size or carrier fit has been assumed.</p>
+  <p><a href="https://www.vinted.co.uk/catalog-rules">Vinted UK catalogue rules</a> · <a href="https://www.vinted.co.uk/help/1335-electronics-category-what-you-can-sell">Electronics category guidance</a>. Checked 17 October 2026; recheck in the app before publishing.</p>
+</section>
+<script src="{{ '/assets/js/vinted-copy.js' | relative_url }}" defer></script>

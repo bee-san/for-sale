@@ -1,6 +1,6 @@
 ---
 title: "Emperor of Rome by Mary Beard, signed"
-price: "10"
+price: "5"
 currency: "£"
 estimated: true
 order: 7
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/emperor-of-rome.jpg"
 image_alt: "Emperor of Rome by Mary Beard, hardback with dust jacket, in good used condition."
 summary: "Signed by Mary Beard. Hardback with dust jacket in good used condition."
-description: "Emperor of Rome, signed by Mary Beard. Hardback with dust jacket in good used condition. Provisional estimated asking price £10. London collection by arrangement."
+description: "Emperor of Rome, signed by Mary Beard. Hardback with dust jacket in good used condition. Provisional estimated asking price £5. London collection by arrangement."
 ---
 ## About this item
 
@@ -21,4 +21,4 @@ The signature is confirmed by the seller. It is not pictured in the current cove
 
 ## Price and collection
 
-**£10 is a provisional estimated asking price for the signed copy.** Please confirm the condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
+**£5 is a provisional estimated asking price for the signed copy.** Please confirm the condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
