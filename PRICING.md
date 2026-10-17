@@ -1,5 +1,45 @@
 # Pricing notes
 
+## Current bargain asking prices
+
+The seller requested lower prices across the entire catalogue. All 28 previously listed items have been reduced, and the newly photographed playmat has been added. These are judgement-based quick-sale asks, not appraisals or verified sold comparables. Condition and contents caveats remain in force.
+
+- LG 32SQ780S-W: **£100**.
+- Xbox 360: **£20**.
+- Digimon Vital Bracelet: **£20**.
+- Russell Hobbs: **£5**.
+- Lenovo ThinkPad P51: **£100**.
+- Jurassic Park by Michael Crichton: **£1**.
+- Emperor of Rome by Mary Beard: **£5**.
+- Short Stories in Japanese, Intermediate: **£2**.
+- Dandadan volume 1, Japanese edition: **£1**.
+- Demon Slayer Rengoku Volume 0, Japanese booklet: **£3**.
+- The Secret History by Donna Tartt: **£1**.
+- Japanese keigo handbook: **£1**.
+- Tapo D205 video doorbell: **£10**.
+- Lenovo ThinkPad X1 Carbon 5th Gen: **£20**.
+- Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: **£2**.
+- The Secret of Secrets by Dan Brown, hardcover: **£2**.
+- Lumie Bodyclock Shine 300 wake-up light: **£25**.
+- RENPHO digital body tape measure: **£3**.
+- WD Red 3TB NAS hard drive, WD30EFRX: **£8**.
+- Kensington SD5700T Thunderbolt 4 dock: **£25**.
+- Pair of Corsair desktop RAM modules, specs unconfirmed: **£3**.
+- Wii U console and Japanese GamePad with Mario Maker box: **£30**.
+- UGREEN CM666 Steam Deck USB-C dock: **£7**.
+- Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£5**.
+- Honeywell HT900E desk fan: **£4**.
+- Sony DualShock 4 PS4 controller, white: **£5**.
+- Mixed yarn bundle, yellow, teal and dark blue: **£2**.
+- Needle-felting tools and foam pad bundle: **£3**.
+- Flesh and Blood trading card game playmat: **£5**.
+
+Prices on the live item pages are authoritative. The Vinted workspace reads those same prices rather than maintaining a second editable copy. Shipping, protection fees and any marketplace eligibility are not included in these asks.
+
+## Earlier pricing research (superseded asking prices)
+
+The notes below preserve earlier research and earlier asks. They do not override the current bargain prices above. Retail comparables are unchanged.
+
 Prepared 14 October 2026 for a private sale in London. These are provisional asking-price estimates, not appraisals, confirmed transaction prices or promises of working condition. No completed-sale dataset was obtained. Retail asking prices are context only; they include a different level of testing, warranty or delivery.
 
 ## LG 32SQ780S-W monitor: £180

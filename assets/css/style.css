@@ -94,6 +94,26 @@ figcaption { padding: 0.75rem 1rem; background: var(--surface); }
 .sold-items { margin-block: 2rem; padding: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-surface); }
 .sold-items summary { cursor: pointer; font-weight: var(--weight-medium); }
 .item-grid--sold { margin-bottom: 0; }
+.draft-nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; margin-block: 1.5rem; }
+.copy-status { padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--surface); font-size: var(--font-small); }
+.draft-group { margin-block: 2.5rem; }
+.draft-card { margin-block: 1rem; border: 1px solid var(--border); border-radius: var(--radius-surface); background: var(--surface); min-width: 0; }
+.draft-card > summary { display: flex; align-items: start; justify-content: space-between; gap: 1rem; padding: 1.25rem; cursor: pointer; font-weight: var(--weight-medium); overflow-wrap: anywhere; }
+.draft-card > summary::before { content: '+'; flex: 0 0 auto; }
+.draft-card[open] > summary::before { content: '−'; }
+.draft-card > summary > span { flex: 1; min-width: 0; }
+.draft-card > summary > strong { white-space: nowrap; }
+.draft-card__body { padding: 0 1.25rem 1.25rem; min-width: 0; }
+.draft-reason { color: var(--muted); }
+.copy-field { margin-block: 1.25rem; }
+.copy-field__heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+.copy-field label { font-weight: var(--weight-medium); }
+.copy-field textarea { display: block; width: 100%; min-width: 0; padding: 0.75rem; border: 1px solid var(--border); border-radius: var(--radius-control); color: var(--text); background: var(--bg); font: inherit; line-height: 1.5; resize: vertical; }
+.copy-field button { border: 0; font: inherit; cursor: pointer; }
+.copy-field button:focus-visible, .copy-field textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.seller-checks { padding: 1rem; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--warning-bg); font-size: var(--font-small); }
+.seller-checks h3 { margin-top: 0; }
+.seller-checks ul { padding-inline-start: 1.25rem; }
 @media (max-width: 42rem) {
   .site-header, .page-shell, .site-footer { padding-inline: 1rem; }
   .page-shell { padding-block-start: 1rem; }

@@ -1,6 +1,6 @@
 ---
 title: "Demon Slayer Rengoku Volume 0, Japanese booklet"
-price: "8"
+price: "3"
 currency: "£"
 estimated: true
 order: 10
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/demon-slayer-rengoku-zero.jpg"
 image_alt: "Used Japanese-language booklet; condition as pictured. Demon Slayer Rengoku Volume 0, Japanese booklet"
 summary: "Used Japanese-language booklet; condition as pictured."
-description: "Demon Slayer Rengoku Volume 0, Japanese booklet. Used Japanese-language booklet; condition as pictured. Provisional estimated asking price £8. London collection by arrangement."
+description: "Demon Slayer Rengoku Volume 0, Japanese booklet. Used Japanese-language booklet; condition as pictured. Provisional estimated asking price £3. London collection by arrangement."
 ---
 ## About this item
 
@@ -21,4 +21,4 @@ Condition as pictured. Interior pages have not been checked in detail. The estim
 
 ## Price and collection
 
-**£8 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
+**£3 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
