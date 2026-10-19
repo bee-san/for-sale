@@ -1,6 +1,6 @@
 ---
 title: "Mixed yarn bundle, yellow, teal and dark blue"
-price: "2"
+price: "4"
 currency: "£"
 estimated: true
 order: 27
@@ -10,8 +10,8 @@ condition: "Loose yarn in a storage bag; fibre type, weights and lengths unconfi
 location_note: "London, by arrangement."
 image: "/assets/images/yarn-bundle.jpg"
 image_alt: "Clear resealable bag containing bright yellow yarn and darker teal and blue yarn."
-summary: "The whole pictured bag of mixed yarn for £2. Fibre content and remaining lengths unconfirmed."
-description: "Mixed yarn bundle, yellow, teal and dark blue. Bargain estimated asking price £2. Condition and contents to confirm. London collection by arrangement."
+summary: "The whole pictured bag of mixed yarn for £4. Fibre content and remaining lengths unconfirmed."
+description: "Mixed yarn bundle, yellow, teal and dark blue. Estimated asking price £4. Condition and contents to confirm. London collection by arrangement."
 ---
 ## About this bundle
 
@@ -25,4 +25,4 @@ The pictured yarn and storage bag are included. No needles, hooks, pattern or fi
 
 ## Price and collection
 
-**£2 provisional asking price for the entire bag**, chosen for a quick sale rather than a researched valuation. Offers welcome. Collection in London, by arrangement.
+**£4 provisional asking price for the entire bag**, a judgement-based estimate rather than a researched valuation. Offers welcome. Collection in London, by arrangement.

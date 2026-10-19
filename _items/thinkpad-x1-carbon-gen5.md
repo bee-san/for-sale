@@ -1,6 +1,6 @@
 ---
 title: "Lenovo ThinkPad X1 Carbon 5th Gen, broken screen"
-price: "20"
+price: "25"
 currency: "£"
 estimated: true
 order: 14
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/x1-carbon-open.jpg"
 image_alt: "Open Lenovo ThinkPad X1 Carbon with a known broken screen; display area masked for privacy."
 summary: "Known broken screen. For repair or spares, not a fully working laptop. Japanese/JIS keyboard."
-description: "Lenovo ThinkPad X1 Carbon 5th Gen with a broken screen, for repair or spares. Japanese/JIS keyboard and visible cosmetic wear. Provisional estimated asking price £20."
+description: "Lenovo ThinkPad X1 Carbon 5th Gen with a broken screen, for repair or spares. Japanese/JIS keyboard and visible cosmetic wear. Provisional estimated asking price £25."
 ---
 ## Known fault: broken screen
 
@@ -35,4 +35,4 @@ The display area in the public photo has been masked to remove a personal reflec
 
 ## Price and collection
 
-**£20 is a provisional estimated asking price for repair or spares.** Offers welcome. Collection in London, by arrangement.
+**£25 is a provisional estimated asking price for repair or spares.** Offers welcome. Collection in London, by arrangement.

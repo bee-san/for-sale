@@ -1,6 +1,6 @@
 ---
 title: "RENPHO digital body tape measure"
-price: "3"
+price: "5"
 currency: "£"
 estimated: true
 order: 18
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/renpho-smart-tape-measure.jpg
 image_alt: "White RENPHO digital body tape measure with an LCD, three grey buttons and a small tape-end tab."
 summary: "White digital body measuring tape with an LCD and retractable tape housing. Exact model and app pairing unconfirmed."
-description: "Used RENPHO digital body tape measure, estimated £3. Exact model, operation and Bluetooth pairing to confirm. London collection by arrangement."
+description: "Used RENPHO digital body tape measure, estimated £5. Exact model, operation and Bluetooth pairing to confirm. London collection by arrangement."
 ---
 ## About this item
 
@@ -27,4 +27,4 @@ The **pictured tape measure only** is listed. No box, instructions or other acce
 
 ## Price and collection
 
-**£3 is a provisional estimated asking price**, subject to confirmation that it works and the tape is intact. Offers welcome. Collection in London, by arrangement.
+**£5 is a provisional estimated asking price**, subject to confirmation that it works and the tape is intact. Offers welcome. Collection in London, by arrangement.

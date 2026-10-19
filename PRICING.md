@@ -1,44 +1,44 @@
 # Pricing notes
 
-## Current bargain asking prices
+## Current asking prices after a modest increase
 
-The seller requested lower prices across the entire catalogue. All 28 previously listed items have been reduced, and the newly photographed playmat has been added. These are judgement-based quick-sale asks, not appraisals or verified sold comparables. Condition and contents caveats remain in force.
+The seller asked for the catalogue's asking prices to be raised slightly after the earlier bargain-clear-out reductions. These are judgement-based asks, not appraisals or verified sold comparables. Condition and contents caveats remain in force. Prices for reserved items have not been changed.
 
-- LG 32SQ780S-W: **£100**.
-- Xbox 360: **£20**.
-- Digimon Vital Bracelet: **£20**.
-- Russell Hobbs: **£5**.
-- Lenovo ThinkPad P51: **£100**.
-- Jurassic Park by Michael Crichton: **£1**.
-- Emperor of Rome by Mary Beard: **£5**.
-- Short Stories in Japanese, Intermediate: **£2**.
-- Dandadan volume 1, Japanese edition: **£1**.
-- Demon Slayer Rengoku Volume 0, Japanese booklet: **£3**.
-- The Secret History by Donna Tartt: **£1**.
-- Japanese keigo handbook: **£1**.
-- Tapo D205 video doorbell: **£10**.
-- Lenovo ThinkPad X1 Carbon 5th Gen: **£20**.
-- Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: **£2**.
-- The Secret of Secrets by Dan Brown, hardcover: **£2**.
-- Lumie Bodyclock Shine 300 wake-up light: **£25**.
-- RENPHO digital body tape measure: **£3**.
-- WD Red 3TB NAS hard drive, WD30EFRX: **£8**.
-- Kensington SD5700T Thunderbolt 4 dock: **£25**.
-- Pair of Corsair desktop RAM modules, specs unconfirmed: **£3**.
-- Wii U console and Japanese GamePad with Mario Maker box: **£30**.
-- UGREEN CM666 Steam Deck USB-C dock: **£7**.
-- Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£5**.
-- Honeywell HT900E desk fan: **£4**.
-- Sony DualShock 4 PS4 controller, white: **£5**.
-- Mixed yarn bundle, yellow, teal and dark blue: **£2**.
-- Needle-felting tools and foam pad bundle: **£3**.
-- Flesh and Blood trading card game playmat: **£5**.
+- LG 32SQ780S-W: **£110**.
+- Xbox 360: **£25**.
+- Digimon Vital Bracelet: **£25**.
+- Russell Hobbs: **£7**.
+- Lenovo ThinkPad P51: **£110**.
+- Jurassic Park by Michael Crichton: **£3**.
+- Emperor of Rome by Mary Beard: **£7**.
+- Short Stories in Japanese, Intermediate: **£4**.
+- Dandadan volume 1, Japanese edition: **£3**.
+- Demon Slayer Rengoku Volume 0, Japanese booklet: **£5**.
+- The Secret History by Donna Tartt: **£3**.
+- Japanese keigo handbook: **£3**.
+- Tapo D205 video doorbell: **£15**.
+- Lenovo ThinkPad X1 Carbon 5th Gen: **£25**.
+- Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: **£4**.
+- The Secret of Secrets by Dan Brown, hardcover: **£4**.
+- Lumie Bodyclock Shine 300 wake-up light: **£30**.
+- RENPHO digital body tape measure: **£5**.
+- WD Red 3TB NAS hard drive, WD30EFRX: **£10**.
+- Kensington SD5700T Thunderbolt 4 dock: **£30**.
+- Pair of Corsair desktop RAM modules, specs unconfirmed: **£5**.
+- Wii U console and Japanese GamePad with Mario Maker box: **£35**.
+- UGREEN CM666 Steam Deck USB-C dock (reserved): **£7**.
+- Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£7**.
+- Honeywell HT900E desk fan: **£6**.
+- Sony DualShock 4 PS4 controller, white (reserved): **£5**.
+- Mixed yarn bundle, yellow, teal and dark blue: **£4**.
+- Needle-felting tools and foam pad bundle: **£5**.
+- Flesh and Blood trading card game playmat: **£7**.
 
 Prices on the live item pages are authoritative. The Vinted workspace reads those same prices rather than maintaining a second editable copy. Shipping, protection fees and any marketplace eligibility are not included in these asks.
 
 ## Earlier pricing research (superseded asking prices)
 
-The notes below preserve earlier research and earlier asks. They do not override the current bargain prices above. Retail comparables are unchanged.
+The notes below preserve earlier research and earlier asks. They do not override the current asking prices above. Retail comparables are unchanged.
 
 Prepared 14 October 2026 for a private sale in London. These are provisional asking-price estimates, not appraisals, confirmed transaction prices or promises of working condition. No completed-sale dataset was obtained. Retail asking prices are context only; they include a different level of testing, warranty or delivery.
 
@@ -145,11 +145,11 @@ Added 16 October 2026. Label-confirmed CM666 model. Provisional used estimate as
 - [UK eBay CM666 reference](https://www.ebay.co.uk/itm/127126219449): search-indexed asking price **£29.97 including buyer protection**, with postage advertised as free. Not a completed sale or a directly fetched price; condition and availability may differ. Treat this as weaker indexed context only.
 - The Amazon page returned a shopping-interstitial rather than a usable product page, so no Amazon price or unverified specification has been used.
 
-## Bargain photo batch, 17 October 2026
+## Historical bargain photo batch, 17 October 2026
 
-The seller requested bargain prices. Fifteen attachments represent eight distinct items or bundles: five new listings and three existing listings. Repeated RENPHO, Wii U and UGREEN views are not extra units. The UGREEN front view is new and has been added to its existing listing.
+At the time, the seller requested bargain prices. Fifteen attachments represented eight distinct items or bundles: five new listings and three existing listings. Repeated RENPHO, Wii U and UGREEN views were not extra units. The UGREEN front view was added to its existing listing.
 
-Current provisional quick-sale asking prices:
+Asking prices at that historical snapshot:
 
 - Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£10**.
 - Honeywell HT900E fan: **£8**.
@@ -160,7 +160,7 @@ Current provisional quick-sale asking prices:
 - Wii U bundle: **£40**, reduced from the previous £60 estimate.
 - UGREEN CM666 dock: **£10**, reduced from the previous £15 estimate.
 
-These are seller-directed, judgement-based low asking prices, not verified completed-sale values or guarantees of operation. Electrical operation, battery health, accessory inclusion and kit completeness remain unconfirmed where the listing says so. Other inventory prices are unchanged.
+These were seller-directed, judgement-based low asking prices, not verified completed-sale values or guarantees of operation. Electrical operation, battery health, accessory inclusion and kit completeness remain unconfirmed where the listing says so. The later modest increase is reflected in the current-price summary above.
 
 The dehumidifier's own label identifies PB-03-UK, 1500ml and 40W. The [manufacturer's current 1500ml mini-dehumidifier page](https://probreeze.com/products/1500ml-mini-dehumidifier), fetched for this update, lists **£54.99 new** and a 1.5L water tank. Its current SKU is PB-D-03 and its specification table contains an inconsistent generic capacity entry. Only the photographed unit's label is used for its capacity/model claims; no running-cost, extraction-performance or exact-current-generation claim is copied. Retail price is weak context only, not a like-for-like used valuation.
 

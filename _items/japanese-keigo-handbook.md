@@ -1,6 +1,6 @@
 ---
 title: "Japanese keigo handbook"
-price: "1"
+price: "3"
 currency: "£"
 estimated: true
 order: 12
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/japanese-keigo-handbook.jpg"
 image_alt: "Used paperback with a visibly stained and worn cover. Japanese keigo handbook"
 summary: "Used paperback with a visibly stained and worn cover."
-description: "Japanese keigo handbook. Used paperback with a visibly stained and worn cover. Provisional estimated asking price £1. London collection by arrangement."
+description: "Japanese keigo handbook. Used paperback with a visibly stained and worn cover. Provisional estimated asking price £3. London collection by arrangement."
 ---
 ## About this item
 
@@ -21,4 +21,4 @@ The cover is visibly stained and worn. Interior pages have not been checked, so 
 
 ## Price and collection
 
-**£1 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
+**£3 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

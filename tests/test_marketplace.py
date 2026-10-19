@@ -1,4 +1,4 @@
-"""Bargain pricing and a copy-only Vinted workspace, not automatic posting."""
+"""Current asking prices and a copy-only Vinted workspace, not auto-posting."""
 import json
 import re
 import subprocess
@@ -7,21 +7,21 @@ from pathlib import Path
 from test_site import Page, get
 
 ROOT = Path(__file__).resolve().parents[1]
-BARGAINS = {
-    'lg-smart-monitor': 100, 'xbox-360-bundle': 20,
-    'digimon-vital-bracelet': 20, 'russell-hobbs-coffee-maker': 5,
-    'lenovo-thinkpad-p51': 100, 'jurassic-park': 1, 'emperor-of-rome': 5,
-    'short-stories-japanese-intermediate': 2, 'dandadan-vol-1-japanese': 1,
-    'demon-slayer-rengoku-zero': 3, 'the-secret-history': 1,
-    'japanese-keigo-handbook': 1, 'tapo-doorbell': 10,
-    'thinkpad-x1-carbon-gen5': 20, 'famitsu-steins-gate-reboot': 2,
-    'the-secret-of-secrets': 2, 'lumie-bodyclock-shine-300': 25,
-    'renpho-smart-tape-measure': 3, 'wd-red-3tb': 8, 'kensington-sd5700t': 25,
-    'corsair-desktop-ram-pair': 3, 'wii-u-mario-maker-bundle': 30,
-    'ugreen-steam-deck-dock': 7, 'pro-breeze-pb03': 5,
-    'honeywell-ht900e': 4, 'sony-dualshock-4-white': 5,
-    'yarn-bundle': 2, 'needle-felting-tools-bundle': 3,
-    'flesh-and-blood-playmat': 5,
+ASKING_PRICES = {
+    'lg-smart-monitor': 110, 'xbox-360-bundle': 25,
+    'digimon-vital-bracelet': 25, 'russell-hobbs-coffee-maker': 7,
+    'lenovo-thinkpad-p51': 110, 'jurassic-park': 3, 'emperor-of-rome': 7,
+    'short-stories-japanese-intermediate': 4, 'dandadan-vol-1-japanese': 3,
+    'demon-slayer-rengoku-zero': 5, 'the-secret-history': 3,
+    'japanese-keigo-handbook': 3, 'tapo-doorbell': 15,
+    'thinkpad-x1-carbon-gen5': 25, 'famitsu-steins-gate-reboot': 4,
+    'the-secret-of-secrets': 4, 'lumie-bodyclock-shine-300': 30,
+    'renpho-smart-tape-measure': 5, 'wd-red-3tb': 10, 'kensington-sd5700t': 30,
+    'corsair-desktop-ram-pair': 5, 'wii-u-mario-maker-bundle': 35,
+    'ugreen-steam-deck-dock': 7, 'pro-breeze-pb03': 7,
+    'honeywell-ht900e': 6, 'sony-dualshock-4-white': 5,
+    'yarn-bundle': 4, 'needle-felting-tools-bundle': 5,
+    'flesh-and-blood-playmat': 7,
 }
 
 
@@ -35,11 +35,11 @@ class MarketplaceSourceTests(unittest.TestCase):
         rows = self.data()
         slugs = [row['slug'] for row in rows]
         self.assertEqual(len(slugs), len(set(slugs)))
-        self.assertEqual(set(slugs), set(BARGAINS))
-        self.assertEqual({p.stem for p in (ROOT / '_items').glob('*.md')}, set(BARGAINS))
+        self.assertEqual(set(slugs), set(ASKING_PRICES))
+        self.assertEqual({p.stem for p in (ROOT / '_items').glob('*.md')}, set(ASKING_PRICES))
 
-    def test_all_catalogue_prices_match_bargain_targets(self):
-        for slug, price in BARGAINS.items():
+    def test_all_catalogue_prices_match_current_asking_prices(self):
+        for slug, price in ASKING_PRICES.items():
             with self.subTest(item=slug):
                 path = ROOT / '_items' / (slug + '.md')
                 self.assertTrue(path.is_file(), 'Missing photographed item: ' + slug)
@@ -124,12 +124,12 @@ class MarketplaceRenderedTests(unittest.TestCase):
         page = CopyPage(get('vinted/index.html').decode())
         manifest = json.loads(get('vinted/manifest.json'))
         self.assertEqual(page.h1_count, 1)
-        self.assertEqual({row['slug'] for row in manifest}, set(BARGAINS))
-        self.assertEqual(len(page.targets), len(BARGAINS) * 3)
+        self.assertEqual({row['slug'] for row in manifest}, set(ASKING_PRICES))
+        self.assertEqual(len(page.targets), len(ASKING_PRICES) * 3)
         self.assertEqual(len(page.targets), len(set(page.targets)))
         for row in manifest:
             slug = row['slug']
-            self.assertEqual(str(row['price']), str(BARGAINS[slug]))
+            self.assertEqual(str(row['price']), str(ASKING_PRICES[slug]))
             for name in ('title', 'description', 'price'):
                 key = name + '-' + slug
                 self.assertIn(key, page.targets)

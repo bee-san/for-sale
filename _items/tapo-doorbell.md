@@ -1,6 +1,6 @@
 ---
 title: "Tapo D205 video doorbell"
-price: "10"
+price: "15"
 currency: "£"
 estimated: true
 order: 13
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/tapo-d205-front.jpg"
 image_alt: "Works, but has scratches. Mounting adhesive is missing. Tapo D205 video doorbell"
 summary: "Works, but has scratches. Mounting adhesive is missing."
-description: "Tapo D205 video doorbell. Works, but has scratches. Mounting adhesive is missing. Provisional estimated asking price £10. London collection by arrangement."
+description: "Tapo D205 video doorbell. Works, but has scratches. Mounting adhesive is missing. Provisional estimated asking price £15. London collection by arrangement."
 ---
 ## About this item
 
@@ -27,4 +27,4 @@ The doorbell and mounting part are pictured. A chime/hub, charger, cable and oth
 
 ## Price and collection
 
-**£10 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.
+**£15 is a provisional estimated asking price.** Offers welcome. Collection in London, by arrangement.

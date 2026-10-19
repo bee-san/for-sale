@@ -1,6 +1,6 @@
 ---
 title: "Honeywell HT900E desk fan"
-price: "4"
+price: "6"
 currency: "£"
 estimated: true
 order: 25
@@ -10,8 +10,8 @@ condition: "Used; visible dust on the grille. Speeds, tilt and operation to conf
 location_note: "London, by arrangement."
 image: "/assets/images/honeywell-ht900e-front.jpg"
 image_alt: "Black Honeywell circular desk fan with a spiral front grille."
-summary: "Compact black Honeywell fan. Bargain asking price; visible dust, operation to confirm."
-description: "Honeywell HT900E desk fan. Bargain estimated asking price £4. Condition and contents to confirm. London collection by arrangement."
+summary: "Compact black Honeywell fan. Estimated asking price; visible dust, operation to confirm."
+description: "Honeywell HT900E desk fan. Estimated asking price £6. Condition and contents to confirm. London collection by arrangement."
 ---
 ## About this item
 
@@ -29,4 +29,4 @@ The pictured fan and its attached mains lead are included. No box or other acces
 
 ## Price and collection
 
-**£4 provisional asking price**, chosen for a quick sale, not a researched market valuation. Offers welcome. Collection in London, by arrangement.
+**£6 provisional asking price**, a judgement-based estimate rather than a researched market valuation. Offers welcome. Collection in London, by arrangement.

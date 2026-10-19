@@ -1,6 +1,6 @@
 ---
 title: "Digimon Vital Bracelet & DiM bundle"
-price: "20"
+price: "25"
 currency: "£"
 estimated: true
 order: 3
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/digimon-bundle.jpg
 image_alt: "Bandai Vital Bracelet ver.BLACK box, two DiM card packs, Black Roar paperwork and a Japanese guide."
 summary: "Original ver.BLACK box, DiM packs and Japanese guide material. Contents need checking."
-description: "Digimon Vital Bracelet ver.BLACK box with DiM packs and guide material. Estimated asking price £20, London collection. Contents and compatibility unconfirmed."
+description: "Digimon Vital Bracelet ver.BLACK box with DiM packs and guide material. Estimated asking price £25, London collection. Contents and compatibility unconfirmed."
 ---
 ## About the bundle
 
@@ -33,6 +33,6 @@ DiM compatibility and any previous device-linking restrictions need checking aga
 
 ## Condition and price
 
-**£20 is a provisional estimated asking price for a bundle containing a working bracelet and the pictured card sets.** The price needs revising if the box is empty, cards are missing or incompatible, or the device does not work. No collector premium has been added for the unconfirmed Black Roar card.
+**£25 is a provisional estimated asking price for a bundle containing a working bracelet and the pictured card sets.** The price needs revising if the box is empty, cards are missing or incompatible, or the device does not work. No collector premium has been added for the unconfirmed Black Roar card.
 
 Collection in London, by arrangement. Ask for a box-contents photo before agreeing a purchase.
