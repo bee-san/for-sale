@@ -1,6 +1,6 @@
 ---
 title: "Needle-felting tools and foam pad bundle"
-price: "5"
+price: "7"
 currency: "£"
 estimated: true
 order: 28
@@ -10,8 +10,8 @@ condition: "Assorted loose craft tools; exact quantities, needle condition and c
 location_note: "London, by arrangement."
 image: "/assets/images/needle-felting-tools-front.jpg"
 image_alt: "Resealable bag containing a pink foam pad, black pouch and clear craft-tool box."
-summary: "Assorted needle-felting tools with a pink foam pad, pouch and storage box. Whole pictured bag for £5."
-description: "Needle-felting tools and foam pad bundle. Estimated asking price £5. Condition and contents to confirm. London collection by arrangement."
+summary: "Assorted needle-felting tools with a pink foam pad, pouch and storage box. Whole pictured bag for £7."
+description: "Needle-felting tools and foam pad bundle. Estimated asking price £7. Condition and contents to confirm. London collection by arrangement."
 ---
 ## About this bundle
 
@@ -31,4 +31,4 @@ No felting wool or instructions are promised. The separate yarn bundle is not in
 
 ## Price and collection
 
-**£5 provisional asking price for the pictured bundle**, a judgement-based estimate rather than a researched market valuation. Offers welcome. Collection in London, by arrangement.
+**£7 provisional asking price for the pictured bundle**, a judgement-based estimate rather than a researched market valuation. Offers welcome. Collection in London, by arrangement.

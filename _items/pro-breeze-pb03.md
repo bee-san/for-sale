@@ -1,6 +1,6 @@
 ---
 title: "Pro Breeze PB-03-UK 1.5L mini dehumidifier"
-price: "7"
+price: "12"
 currency: "£"
 estimated: true
 order: 24
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/pro-breeze-pb03-front.jpg"
 image_alt: "White Pro Breeze mini dehumidifier with front ventilation grille and dark translucent water tank."
 summary: "Compact mini dehumidifier with a 1.5L tank. Estimated asking price; operation and adaptor to confirm."
-description: "Pro Breeze PB-03-UK 1.5L mini dehumidifier. Estimated asking price £7. Condition and contents to confirm. London collection by arrangement."
+description: "Pro Breeze PB-03-UK 1.5L mini dehumidifier. Estimated asking price £12. Condition and contents to confirm. London collection by arrangement."
 ---
 ## About this item
 
@@ -31,4 +31,4 @@ The dehumidifier is listed with its pictured tank. **Power adaptor inclusion is 
 
 ## Price and collection
 
-**£7 provisional asking price**, a judgement-based estimate rather than a researched market valuation. Offers welcome. Collection in London, by arrangement.
+**£12 provisional asking price**, a judgement-based estimate rather than a researched market valuation. Offers welcome. Collection in London, by arrangement.

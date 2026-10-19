@@ -1,38 +1,42 @@
 # Pricing notes
 
-## Current asking prices after a modest increase
+## Current market-reviewed asking prices
 
-The seller asked for the catalogue's asking prices to be raised slightly after the earlier bargain-clear-out reductions. These are judgement-based asks, not appraisals or verified sold comparables. Condition and contents caveats remain in force. Prices for reserved items have not been changed.
+Reviewed 19 October 2026. The goal is a practical asking price a little below the closest useful market reference so the items can sell, not an appraisal or a promise of sale. Completed sales are stronger evidence than live asks. For several niche items there is only one, mismatched or no reliable UK sold comparable; those prices are low-confidence estimates, not statistically calculated averages. Condition, missing accessories, untested operation and import/compatibility limits are reflected where known. Prices exclude postage and marketplace fees.
 
-- LG 32SQ780S-W: **£110**.
-- Xbox 360: **£25**.
-- Digimon Vital Bracelet: **£25**.
-- Russell Hobbs: **£7**.
-- Lenovo ThinkPad P51: **£110**.
-- Jurassic Park by Michael Crichton: **£3**.
-- Emperor of Rome by Mary Beard: **£7**.
-- Short Stories in Japanese, Intermediate: **£4**.
-- Dandadan volume 1, Japanese edition: **£3**.
-- Demon Slayer Rengoku Volume 0, Japanese booklet: **£5**.
-- The Secret History by Donna Tartt: **£3**.
-- Japanese keigo handbook: **£3**.
-- Tapo D205 video doorbell: **£15**.
-- Lenovo ThinkPad X1 Carbon 5th Gen: **£25**.
-- Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover: **£4**.
-- The Secret of Secrets by Dan Brown, hardcover: **£4**.
-- Lumie Bodyclock Shine 300 wake-up light: **£30**.
-- RENPHO digital body tape measure: **£5**.
-- WD Red 3TB NAS hard drive, WD30EFRX: **£10**.
-- Kensington SD5700T Thunderbolt 4 dock: **£30**.
-- Pair of Corsair desktop RAM modules, specs unconfirmed: **£5**.
-- Wii U console and Japanese GamePad with Mario Maker box: **£35**.
-- UGREEN CM666 Steam Deck USB-C dock (reserved): **£7**.
-- Pro Breeze PB-03-UK 1.5L mini dehumidifier: **£7**.
-- Honeywell HT900E desk fan: **£6**.
-- Sony DualShock 4 PS4 controller, white (reserved): **£5**.
-- Mixed yarn bundle, yellow, teal and dark blue: **£4**.
-- Needle-felting tools and foam pad bundle: **£5**.
-- Flesh and Blood trading card game playmat: **£7**.
+The explicit request was to update every price, so this includes all 29 catalogue entries, including the UGREEN dock and DualShock 4, which remain marked pending. Statuses have not changed.
+
+### Item-by-item comparison
+
+- **LG 32SQ780S-W: £160 (was £110).** No exact-model UK sold result found. A used 32-inch 4K LG 32UL750-W was listed at [£209.95 on eBay UK](https://www.ebay.co.uk/itm/298585086027), a different model. The earlier £150–£220 range applied only if this monitor works and is complete. £160 sits below the nearby used ask and discounts the untested panel and unconfirmed PSU/accessories.
+- **Xbox 360 bundle: £30 (was £25).** A [tested white 60GB bundle was asking £40 on Gumtree](https://www.gumtree.com/p/xbox-360/xbox-360-white-60gb-tested-working-can-deliver/1802284513), with controller, PSU, cables and games; the [£89.99 retailer bundle](https://www.8bitbeyond.com/products/xbox-360-250gb-console-white) is tested and warranted. This console is untested and the six cases do not establish that discs or all accessories are present, so £30 is below those references.
+- **Digimon Vital Bracelet bundle: £40 (was £25).** No reliable exact UK completed sale was found. The earlier £35–£65 estimate required a working bracelet and the pictured usable cards. £40 is below the middle of that conditional range; it remains dependent on checking the box contents and operation. The [JYW catalogue](https://jyw-tmgc.com/collections/vital-bracelet) is product context, not a UK price comparable.
+- **Russell Hobbs Brew & Go: £8 (was £7).** No reliable used sold price found. The earlier £5–£15 range assumed a working machine; the [manufacturer model page](https://uk.russellhobbs.com/brew-go-coffee-machine-22630) identifies the style but is out of stock and is not a valuation. £8 is a low-end quick-sale estimate because the mug and brew test are unconfirmed.
+- **Lenovo ThinkPad P51: £180 (was £110).** An [eBay UK P51 with i7, 32GB and 512GB SSD is £365](https://www.ebay.co.uk/itm/178231397677), refurbished, professionally tested, with a one-year guarantee; the page showed one sold. It is not like-for-like. The £180 private ask remains below the earlier £200 working estimate to allow for the Japanese keyboard, unconfirmed exact GPU and incomplete function test.
+- **Jurassic Park paperback: £4 (was £3).** No reliable like-for-like UK sold sample found. The copy is visibly worn, so this remains a low-confidence paperback estimate rather than a collector price.
+- **Emperor of Rome, signed by Mary Beard: £10 (was £7).** A different Mary Beard hardback, *SPQR*, sold for [£4.98 on eBay UK](https://www.ebay.co.uk/itm/135951075931); it is not the same title or a signed copy. £10 allows a modest signature premium but is a low-confidence estimate because no matching signed sale was found.
+- **Short Stories in Japanese for Intermediate Learners: £6 (was £4).** The exact book was listed used in “Good” condition at [£7.07](https://www.ebay.co.uk/itm/137466155468) (now out of stock); new UK listings were £10.93–£12.18. £6 undercuts the used reference for this copy with visible cover wear.
+- **Dandadan volume 1, Japanese edition: £6 (was £3).** An [18-volume Japanese set was asking £120.03](https://www.ebay.co.uk/itm/297047317140), about £6.67 per volume before considering bundle/import differences; this is an active bundle ask, not a sale. £6 undercuts that per-volume reference for the single used copy. No exact UK single-volume sold average was found.
+- **Demon Slayer Rengoku Volume 0 booklet: £18 (was £5).** A matching eBay listing ended at [£34.04](https://www.ebay.co.uk/itm/188871804377), but it was not marked sold, so it is only a weak asking-price reference, not a completed sale. £18 undercuts that listing while recognising the booklet’s limited Japanese release; confidence is low until more sold data appears.
+- **The Secret History paperback: £5 (was £3).** An eBay UK used-paperback search showed a pre-owned copy asking [£6.43](https://www.ebay.co.uk/shop/the-secret-history-donna?_nkw=the+secret+history+donna). £5 is below that active reference and reflects the creased, scuffed copy here; no robust sold average was found.
+- **Japanese keigo handbook: £4 (was £3).** The exact Japanese title is listed used for ¥330 by [BookOff](https://shopping.bookoff.co.jp/used/0019257466), versus ¥968 new at the [publisher](https://www.nagaokashoten.co.jp/book/9784522437360). Those are Japan-market prices and exclude UK import context; the stained cover makes this a low-confidence £4 local ask, not a UK average.
+- **Tapo D205 doorbell: £25 (was £15).** An exact-model [new eBay UK listing is £46.99 and shows 25 sold](https://www.ebay.co.uk/itm/197782374390). That is new stock, not a used sold comp. £25 discounts the working unit for scratches and missing mounting adhesive.
+- **ThinkPad X1 Carbon 5th Gen, broken screen: £35 (was £25).** A [broken-screen 3rd-generation X1 Carbon sold for £21.80](https://www.ebay.co.uk/itm/227398243959), an older and imperfect comparator. No reliable Gen 5 broken-screen sale was found. £35 reflects the newer generation while retaining a substantial repair/parts discount; confidence is low because other functions are unknown.
+- **Weekly Famitsu No. 1960: £10 (was £4).** Exact-issue listings were found, but no reliable sold price was exposed. A different recent issue, No. 1947, was [asking £20.28 new](https://www.ebay.co.uk/itm/366411840226). £10 is a conservative used ask for the Steins;Gate Re:Boot issue, with inserts/interior still unconfirmed; it is not a calculated average.
+- **The Secret of Secrets hardcover: £8 (was £4).** The [Amazon UK new hardcover reference was £12.50](https://www.amazon.co.uk/Secret-Secrets-brilliant-internationally-bestselling/dp/1787634558); this is retail, not a sold comparable. £8 is a low-confidence used ask for the jacketed copy with visible edge wear; no reliable UK completed-sale average was found.
+- **Lumie Bodyclock Shine 300: £40 (was £30).** The [manufacturer lists it new at £149](https://www.lumie.com/products/bodyclock-shine-300); an earlier £60 estimate assumed all functions and a suitable adaptor worked. This unit powers on in the photo, but other functions and the PSU are unconfirmed, so £40 is below that working estimate.
+- **RENPHO digital tape measure: £8 (was £5).** A UK [Vinted copy in excellent condition was asking £12](https://www.vinted.co.uk/items/9676581661-renpho-smart-body-tape-measure). This unit’s operation and app pairing are unconfirmed, so £8 is below that used ask. A different newer model’s retail price was excluded.
+- **WD Red WD30EFRX 3TB: £30 (was £10).** An exact-model used drive sold for [£49.57 including eBay’s buyer-protection fee](https://www.ebay.co.uk/itm/168514080020); the listing showed 14 sold and described a fully operational drive with free tracked delivery. This drive has no SMART report or health test, so £30 is a substantial condition-adjusted undercut.
+- **Kensington SD5700T dock: £45 (was £30).** A used exact-model eBay listing ended at [£48.34 plus £30 postage](https://www.ebay.co.uk/itm/306993535416), but was not marked sold. A UK refurbisher asks [£125 for a tested unit with charger and warranty](https://jiils.uk/products/kensington-sd5700t-thunderbolt-4-dual-4k-dock-180w-usb-c-usb-31964). £45 allows for this dock’s scratches and unconfirmed PSU/cable/operation; neither reference is a like-for-like sale.
+- **Pair of Corsair RAM modules: £8 (was £5).** Capacity, DDR generation, speed, ECC status and testing are unknown, so a specification-matched average cannot be calculated. £8 is a low-confidence pair estimate only; reading the module labels could materially change it.
+- **Wii U Japanese Mario Maker bundle: £75 (was £35).** A similar used Japanese 32GB set was listed out of stock after [four sales at about £114.89](https://www.ebay.co.uk/itm/394487120295), in good condition with free international delivery. This bundle is not confirmed complete or working and does not promise the game/amiibo, so £75 is discounted below that reference.
+- **UGREEN CM666 dock (pending): £15 (was £7).** An exact-model dock, used briefly and described as excellent, sold for [£19.20 including buyer protection](https://www.ebay.co.uk/itm/197396087843). £15 is below that sale because this unit’s operation and separate power supply are unconfirmed. The pending status remains unchanged.
+- **Pro Breeze PB-03-UK dehumidifier: £12 (was £7).** An exact-model used unit sold for [£15.08 including buyer protection](https://www.ebay.co.uk/itm/168569376254), plus £5.21 tracked postage; eBay described it as fully operational. £12 discounts this unit for unconfirmed operation and adaptor inclusion.
+- **Honeywell HT900E fan: £8 (was £6).** Exact-model used listings exist, but no reliable sold price was found. £8 is a conservative low-confidence ask for a dusty, untested fan, not a claimed market average.
+- **White Sony DualShock 4 (pending): £12 (was £5).** A working white DualShock 4 sold for [£22 on eBay UK](https://www.ebay.co.uk/itm/388459980984). This controller has visible wear and stick drift/charging/battery are untested, so £12 reflects a fault-risk discount. The pending status remains unchanged.
+- **Mixed yarn bundle: £4 (unchanged).** No reliable sold comparable matched an unweighed bag with unknown fibre content. £4 remains a cautious whole-bag estimate; no wool, brand or quantity premium is assumed.
+- **Needle-felting tools and foam pad bundle: £7 (was £5).** New eBay UK references include a [foam pad at £4.99](https://www.ebay.co.uk/itm/224083814033) and [Clover needle-felting tools from £7.99](https://www.ebay.co.uk/itm/267059473727). The pictured used bundle’s tool quantity/completeness is unconfirmed; £7 is below those replacement asks, not a sold average.
+- **Flesh and Blood playmat: £10 (was £7).** No reliable sold price matched the pictured design, and its edition/dimensions are unknown. A used [Bright Lights playmat listing](https://www.ebay.co.uk/itm/389489919218) provides only a category reference; £10 is a low-confidence generic used-mat ask with no rarity premium.
 
 Prices on the live item pages are authoritative. The Vinted workspace reads those same prices rather than maintaining a second editable copy. Shipping, protection fees and any marketplace eligibility are not included in these asks.
 

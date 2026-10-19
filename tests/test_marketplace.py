@@ -8,20 +8,20 @@ from test_site import Page, get
 
 ROOT = Path(__file__).resolve().parents[1]
 ASKING_PRICES = {
-    'lg-smart-monitor': 110, 'xbox-360-bundle': 25,
-    'digimon-vital-bracelet': 25, 'russell-hobbs-coffee-maker': 7,
-    'lenovo-thinkpad-p51': 110, 'jurassic-park': 3, 'emperor-of-rome': 7,
-    'short-stories-japanese-intermediate': 4, 'dandadan-vol-1-japanese': 3,
-    'demon-slayer-rengoku-zero': 5, 'the-secret-history': 3,
-    'japanese-keigo-handbook': 3, 'tapo-doorbell': 15,
-    'thinkpad-x1-carbon-gen5': 25, 'famitsu-steins-gate-reboot': 4,
-    'the-secret-of-secrets': 4, 'lumie-bodyclock-shine-300': 30,
-    'renpho-smart-tape-measure': 5, 'wd-red-3tb': 10, 'kensington-sd5700t': 30,
-    'corsair-desktop-ram-pair': 5, 'wii-u-mario-maker-bundle': 35,
-    'ugreen-steam-deck-dock': 7, 'pro-breeze-pb03': 7,
-    'honeywell-ht900e': 6, 'sony-dualshock-4-white': 5,
-    'yarn-bundle': 4, 'needle-felting-tools-bundle': 5,
-    'flesh-and-blood-playmat': 7,
+    'lg-smart-monitor': 160, 'xbox-360-bundle': 30,
+    'digimon-vital-bracelet': 40, 'russell-hobbs-coffee-maker': 8,
+    'lenovo-thinkpad-p51': 180, 'jurassic-park': 4, 'emperor-of-rome': 10,
+    'short-stories-japanese-intermediate': 6, 'dandadan-vol-1-japanese': 6,
+    'demon-slayer-rengoku-zero': 18, 'the-secret-history': 5,
+    'japanese-keigo-handbook': 4, 'tapo-doorbell': 25,
+    'thinkpad-x1-carbon-gen5': 35, 'famitsu-steins-gate-reboot': 10,
+    'the-secret-of-secrets': 8, 'lumie-bodyclock-shine-300': 40,
+    'renpho-smart-tape-measure': 8, 'wd-red-3tb': 30, 'kensington-sd5700t': 45,
+    'corsair-desktop-ram-pair': 8, 'wii-u-mario-maker-bundle': 75,
+    'ugreen-steam-deck-dock': 15, 'pro-breeze-pb03': 12,
+    'honeywell-ht900e': 8, 'sony-dualshock-4-white': 12,
+    'yarn-bundle': 4, 'needle-felting-tools-bundle': 7,
+    'flesh-and-blood-playmat': 10,
 }
 
 

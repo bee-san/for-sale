@@ -1,6 +1,6 @@
 ---
 title: "Wii U console and Japanese GamePad with Mario Maker box"
-price: "35"
+price: "75"
 currency: "£"
 estimated: true
 order: 22
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/wii-u-console-accessories.jpg
 image_alt: "White Wii U console and GamePad in a yellow Mario Maker box, alongside a grey power adaptor, cables and small accessories."
 summary: "White Wii U, Japanese-labelled GamePad, pictured leads/adaptor and Super Mario Maker 30th-anniversary box. Not confirmed complete; game and amiibo not promised."
-description: "Used white Wii U and Japanese GamePad with Mario Maker 30th-anniversary box and pictured accessories. Estimated £35; operation, region and contents to confirm. London."
+description: "Used white Wii U and Japanese GamePad with Mario Maker 30th-anniversary box and pictured accessories. Estimated £75; operation, region and contents to confirm. London."
 ---
 ## About this bundle
 
@@ -54,4 +54,4 @@ Console booting, disc reading, HDMI output, GamePad pairing/charging and all sup
 
 ## Price and collection
 
-**£35 is a provisional estimated asking price**, allowing for the import and unconfirmed completeness/testing. It assumes no major hardware fault; revise if faults are found or additional original contents are confirmed. Offers welcome. Collection in London, by arrangement.
+**£75 is a provisional estimated asking price**, allowing for the import and unconfirmed completeness/testing. It assumes no major hardware fault; revise if faults are found or additional original contents are confirmed. Offers welcome. Collection in London, by arrangement.

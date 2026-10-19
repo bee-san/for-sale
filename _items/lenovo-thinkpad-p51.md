@@ -1,6 +1,6 @@
 ---
 title: "Lenovo ThinkPad P51 laptop"
-price: "110"
+price: "180"
 currency: "£"
 estimated: true
 order: 5
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/thinkpad-p51-open.jpg
 image_alt: "Open black Lenovo ThinkPad P51 with a Japanese keyboard, number pad and red TrackPoint; the screen is off."
 summary: "Intel Core i7-7820HQ, 32GB RAM, Japanese keyboard and dedicated NVIDIA Quadro graphics (exact GPU model unconfirmed). Windows shows 237GB C: and 447GB D: volumes; an SSD and charger are included."
-description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM and dedicated NVIDIA Quadro graphics (exact GPU model unconfirmed). Japanese keyboard, SSD and charger included. Windows shows 237GB and 447GB volumes. Estimated £110, London collection."
+description: "Lenovo ThinkPad P51 with i7-7820HQ, 32GB RAM and dedicated NVIDIA Quadro graphics (exact GPU model unconfirmed). Japanese keyboard, SSD and charger included. Windows shows 237GB and 447GB volumes. Estimated £180, London collection."
 ---
 ## About the laptop
 
@@ -37,7 +37,7 @@ An **SSD is included**. The earlier “around 500GB” storage estimate is super
 
 ## Condition and price
 
-**£110 is the provisional estimated asking price.** Offers welcome. The i7-7820HQ, 32GB RAM and included charger remain confirmed. It assumes no significant functional faults; a full functional test is still outstanding.
+**£180 is the provisional estimated asking price.** Offers welcome. The i7-7820HQ, 32GB RAM and included charger remain confirmed. It assumes no significant functional faults; a full functional test is still outstanding.
 
 There are visible cosmetic signs of use, dust/smudges and stickers on the lid. The new photos **show the laptop booted into Windows with the display on**. This demonstrates booting and a lit display, not a full test of the screen, keyboard, ports, cooling or battery.
 

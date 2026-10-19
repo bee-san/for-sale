@@ -1,6 +1,6 @@
 ---
 title: "The Secret History by Donna Tartt"
-price: "3"
+price: "5"
 currency: "£"
 estimated: true
 order: 11
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: "/assets/images/the-secret-history.jpg"
 image_alt: "Worn paperback with a creased, scuffed cover. The Secret History by Donna Tartt"
 summary: "Worn paperback with a creased, scuffed cover."
-description: "The Secret History by Donna Tartt. Worn paperback with a creased, scuffed cover. Provisional estimated asking price £3. London collection by arrangement."
+description: "The Secret History by Donna Tartt. Worn paperback with a creased, scuffed cover. Provisional estimated asking price £5. London collection by arrangement."
 ---
 ## About this item
 
@@ -21,4 +21,4 @@ Interior pages and binding have not been checked in detail.
 
 ## Price and collection
 
-**£3 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.
+**£5 is a provisional estimated asking price.** Please confirm the interior condition before agreeing a purchase. Offers welcome. Collection in London, by arrangement.

@@ -1,6 +1,6 @@
 ---
 title: "WD Red 3TB NAS hard drive, WD30EFRX"
-price: "10"
+price: "30"
 currency: "£"
 estimated: true
 order: 19
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/wd-red-3tb-redacted.jpg
 image_alt: "Bare WD Red 3TB NAS hard drive with its serial numbers, WWN and machine-readable identifiers covered."
 summary: "3.5-inch SATA mechanical hard drive, model WD30EFRX, with 3TB labelled capacity and 64MB cache. Drive health unconfirmed."
-description: "Used WD Red WD30EFRX 3TB 3.5-inch SATA NAS hard drive. Estimated £10; SMART health and testing unconfirmed. London collection."
+description: "Used WD Red WD30EFRX 3TB 3.5-inch SATA NAS hard drive. Estimated £30; SMART health and testing unconfirmed. London collection."
 ---
 ## About this drive
 
@@ -35,4 +35,4 @@ Serial numbers, WWN and barcodes/QR codes are covered in the public photo.
 
 ## Price and collection
 
-**£10 is a provisional estimated asking price**, subject to confirmation of working operation and acceptable drive health. Reassess if testing reveals faults. Offers welcome. Collection in London, by arrangement.
+**£30 is a provisional estimated asking price**, subject to confirmation of working operation and acceptable drive health. Reassess if testing reveals faults. Offers welcome. Collection in London, by arrangement.

@@ -26,7 +26,7 @@ CI verifies archive contents against the exact current public photo bytes and re
 
 Draft wording and seller-only checks are in `_data/vinted_drafts.json`. Prices are read from `_items/*.md`, so do not put prices in the draft data. `ready`, `check` and `other` control the workspace groups. Known faults and testing uncertainty stay in buyer descriptions; preparation, packing and policy checks stay outside the copied fields. A draft is not a guarantee of Vinted eligibility.
 
-Asking prices were raised modestly from the bargain-clear-out amounts after review. The newly photographed Flesh and Blood playmat is included; repeated photos are not extra stock. Old pricing research below the current summary in `PRICING.md` is historical, not the current asking price.
+Asking prices were reviewed against available UK sold and active comparables, with condition and testing limits reflected in the asks. Where a reliable market sample was not available, `PRICING.md` labels the estimate as low-confidence rather than claiming a statistical average. The newly photographed Flesh and Blood playmat is included; repeated photos are not extra stock.
 
 ## Run locally
 

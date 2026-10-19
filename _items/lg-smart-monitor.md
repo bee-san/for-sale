@@ -1,6 +1,6 @@
 ---
 title: "LG 32SQ780S-W 32-inch 4K smart monitor"
-price: "110"
+price: "160"
 currency: "£"
 estimated: true
 order: 1
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/lg-monitor.jpg
 image_alt: "LG monitor lying screen-up beside its white Ergo arm and remote."
 summary: "32-inch 4K smart monitor with the white Ergo desk arm and remote pictured."
-description: "LG 32SQ780S-W 32-inch 4K smart monitor with Ergo arm and remote. Estimated asking price £110, London collection."
+description: "LG 32SQ780S-W 32-inch 4K smart monitor with Ergo arm and remote. Estimated asking price £160, London collection."
 ---
 ## About the monitor
 
@@ -28,7 +28,7 @@ The power supply and connection cables are **not visible**. Please confirm wheth
 
 ## Condition and price
 
-**£110 is a provisional estimated asking price**, subject to confirmation of working condition and contents. The screen is off in the photo, so panel condition, dead pixels, inputs, remote and smart functions have not been demonstrated. Cosmetic marks and reflections are visible; this is not a promise of a scratch-free panel.
+**£160 is a provisional estimated asking price**, subject to confirmation of working condition and contents. The screen is off in the photo, so panel condition, dead pixels, inputs, remote and smart functions have not been demonstrated. Cosmetic marks and reflections are visible; this is not a promise of a scratch-free panel.
 
 Collection in London, by arrangement. Please ask for a powered-on photo and confirmation of the power supply before agreeing a purchase.
 

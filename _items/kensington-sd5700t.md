@@ -1,6 +1,6 @@
 ---
 title: "Kensington SD5700T Thunderbolt 4 dock"
-price: "30"
+price: "45"
 currency: "£"
 estimated: true
 order: 20
@@ -11,7 +11,7 @@ location_note: "London, by arrangement."
 image: /assets/images/kensington-sd5700t-top.jpg
 image_alt: "Silver Kensington docking station with noticeable scratches, scuffs and marks on its brushed-metal top."
 summary: "SD5700T Thunderbolt 4 Dual 4K dock, identified from its underside label. PSU and Thunderbolt cable inclusion unconfirmed."
-description: "Used Kensington SD5700T Thunderbolt 4 dock with visible cosmetic wear. Estimated £30. Power supply, host cable and operation to confirm. London collection."
+description: "Used Kensington SD5700T Thunderbolt 4 dock with visible cosmetic wear. Estimated £45. Power supply, host cable and operation to confirm. London collection."
 ---
 ## About this dock
 
@@ -45,4 +45,4 @@ The serial number, MAC address and QR code are covered in the public label photo
 
 ## Price and collection
 
-**£30 is a provisional estimated asking price**, allowing for cosmetic wear and unconfirmed accessories/testing. Reassess once the power supply, cable and operation are confirmed. Offers welcome. Collection in London, by arrangement.
+**£45 is a provisional estimated asking price**, allowing for cosmetic wear and unconfirmed accessories/testing. Reassess once the power supply, cable and operation are confirmed. Offers welcome. Collection in London, by arrangement.

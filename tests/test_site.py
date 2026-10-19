@@ -10,35 +10,35 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get('SALE_BASE_URL', '')
 ITEMS = {
-    'lg-smart-monitor': ('LG 32SQ780S-W', '£110', 'power supply'),
-    'xbox-360-bundle': ('Xbox 360', '£25', 'region'),
-    'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£25', 'Black Roar'),
-    'russell-hobbs-coffee-maker': ('Russell Hobbs', '£7', 'travel mug'),
-    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£110', 'i7-7820HQ'),
-    'jurassic-park': ('Jurassic Park by Michael Crichton', '£3', 'creased'),
-    'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£7', 'Signed by Mary Beard'),
-    'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£4', 'B1-B2'),
-    'dandadan-vol-1-japanese': ('Dandadan volume 1, Japanese edition', '£3', 'Japanese-language'),
-    'demon-slayer-rengoku-zero': ('Demon Slayer Rengoku Volume 0, Japanese booklet', '£5', 'booklet'),
-    'the-secret-history': ('The Secret History by Donna Tartt', '£3', 'creased'),
-    'japanese-keigo-handbook': ('Japanese keigo handbook', '£3', 'stained'),
-    'tapo-doorbell': ('Tapo D205 video doorbell', '£15', '3M'),
-    'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£25', 'broken screen'),
-    'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£4', '3 September 2026'),
-    'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£4', 'dust jacket'),
-    'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£30', 'not verified'),
-    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£5', 'Bluetooth'),
-    'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£10', 'SMART'),
-    'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£30', 'Power supply'),
-    'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£5', 'DDR generation'),
-    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£35', 'step-down'),
-    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£7', 'attached host lead'),
-    'pro-breeze-pb03': ('Pro Breeze PB-03-UK 1.5L mini dehumidifier', '£7', '1500ml'),
-    'honeywell-ht900e': ('Honeywell HT900E desk fan', '£6', 'EFN900DC'),
-    'sony-dualshock-4-white': ('Sony DualShock 4 PS4 controller, white', '£5', 'stick drifts'),
+    'lg-smart-monitor': ('LG 32SQ780S-W', '£160', 'power supply'),
+    'xbox-360-bundle': ('Xbox 360', '£30', 'region'),
+    'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£40', 'Black Roar'),
+    'russell-hobbs-coffee-maker': ('Russell Hobbs', '£8', 'travel mug'),
+    'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£180', 'i7-7820HQ'),
+    'jurassic-park': ('Jurassic Park by Michael Crichton', '£4', 'creased'),
+    'emperor-of-rome': ('Emperor of Rome by Mary Beard', '£10', 'Signed by Mary Beard'),
+    'short-stories-japanese-intermediate': ('Short Stories in Japanese, Intermediate', '£6', 'B1-B2'),
+    'dandadan-vol-1-japanese': ('Dandadan volume 1, Japanese edition', '£6', 'Japanese-language'),
+    'demon-slayer-rengoku-zero': ('Demon Slayer Rengoku Volume 0, Japanese booklet', '£18', 'booklet'),
+    'the-secret-history': ('The Secret History by Donna Tartt', '£5', 'creased'),
+    'japanese-keigo-handbook': ('Japanese keigo handbook', '£4', 'stained'),
+    'tapo-doorbell': ('Tapo D205 video doorbell', '£25', '3M'),
+    'thinkpad-x1-carbon-gen5': ('Lenovo ThinkPad X1 Carbon 5th Gen', '£35', 'broken screen'),
+    'famitsu-steins-gate-reboot': ('Weekly Famitsu No. 1960, Steins;Gate Re:Boot cover', '£10', '3 September 2026'),
+    'the-secret-of-secrets': ('The Secret of Secrets by Dan Brown, hardcover', '£8', 'dust jacket'),
+    'lumie-bodyclock-shine-300': ('Lumie Bodyclock Shine 300 wake-up light', '£40', 'not verified'),
+    'renpho-smart-tape-measure': ('RENPHO digital body tape measure', '£8', 'Bluetooth'),
+    'wd-red-3tb': ('WD Red 3TB NAS hard drive, WD30EFRX', '£30', 'SMART'),
+    'kensington-sd5700t': ('Kensington SD5700T Thunderbolt 4 dock', '£45', 'Power supply'),
+    'corsair-desktop-ram-pair': ('Pair of Corsair desktop RAM modules, specs unconfirmed', '£8', 'DDR generation'),
+    'wii-u-mario-maker-bundle': ('Wii U console and Japanese GamePad with Mario Maker box', '£75', 'step-down'),
+    'ugreen-steam-deck-dock': ('UGREEN CM666 Steam Deck USB-C dock', '£15', 'attached host lead'),
+    'pro-breeze-pb03': ('Pro Breeze PB-03-UK 1.5L mini dehumidifier', '£12', '1500ml'),
+    'honeywell-ht900e': ('Honeywell HT900E desk fan', '£8', 'EFN900DC'),
+    'sony-dualshock-4-white': ('Sony DualShock 4 PS4 controller, white', '£12', 'stick drifts'),
     'yarn-bundle': ('Mixed yarn bundle, yellow, teal and dark blue', '£4', 'fibre content'),
-    'needle-felting-tools-bundle': ('Needle-felting tools and foam pad bundle', '£5', 'not a confirmed complete'),
-    'flesh-and-blood-playmat': ('Flesh and Blood trading card game playmat', '£7', 'Playmat only'),
+    'needle-felting-tools-bundle': ('Needle-felting tools and foam pad bundle', '£7', 'not a confirmed complete'),
+    'flesh-and-blood-playmat': ('Flesh and Blood trading card game playmat', '£10', 'Playmat only'),
 }
 
 
@@ -165,7 +165,7 @@ class SaleSiteTests(unittest.TestCase):
         text = ' '.join(' '.join(page.text).split())
         self.assertIn('Signed by Mary Beard', text)
         self.assertIn('Good used condition', text)
-        self.assertIn('£7', text)
+        self.assertIn('£10', text)
         self.assertNotIn('No signature has been checked', text)
         self.assertNotIn('some visible jacket wear', text)
 
@@ -174,7 +174,7 @@ class SaleSiteTests(unittest.TestCase):
         text = ' '.join(' '.join(page.text).split())
         self.assertIn('broken screen', text)
         self.assertIn('repair or spares', text)
-        self.assertIn('£25', text)
+        self.assertIn('£35', text)
         self.assertNotIn('does not demonstrate either working operation or a fault', text)
         card = next(fragment for fragment in get('index.html').decode().split('<article')
                     if '/items/thinkpad-x1-carbon-gen5/' in fragment).split('</article>')[0]
@@ -237,14 +237,14 @@ class SaleSiteTests(unittest.TestCase):
 
     def test_bargain_batch_is_eight_items_without_duplicate_existing_listings(self):
         expected = {
-            'pro-breeze-pb03': ('£7', 2, ('1500ml', 'not a daily extraction rate', 'Power adaptor inclusion is unconfirmed')),
-            'honeywell-ht900e': ('£6', 2, ('HT900E', 'visible dust', 'confirm')),
-            'sony-dualshock-4-white': ('£5', 2, ('Controller only', 'stick drifts', 'hardware revision')),
+            'pro-breeze-pb03': ('£12', 2, ('1500ml', 'not a daily extraction rate', 'Power adaptor inclusion is unconfirmed')),
+            'honeywell-ht900e': ('£8', 2, ('HT900E', 'visible dust', 'confirm')),
+            'sony-dualshock-4-white': ('£12', 2, ('Controller only', 'stick drifts', 'hardware revision')),
             'yarn-bundle': ('£4', 1, ('entire bag', 'not advertised as pure wool', 'remaining length')),
-            'needle-felting-tools-bundle': ('£5', 2, ('not a confirmed complete', 'Sharp needles', 'separate yarn bundle is not included')),
-            'renpho-smart-tape-measure': ('£5', 1, ('not been verified for this unit',)),
-            'wii-u-mario-maker-bundle': ('£35', 4, ('step-down transformer', 'Not confirmed complete')),
-            'ugreen-steam-deck-dock': ('£7', 3, ('attached host lead only', 'Front view')),
+            'needle-felting-tools-bundle': ('£7', 2, ('not a confirmed complete', 'Sharp needles', 'separate yarn bundle is not included')),
+            'renpho-smart-tape-measure': ('£8', 1, ('not been verified for this unit',)),
+            'wii-u-mario-maker-bundle': ('£75', 4, ('step-down transformer', 'Not confirmed complete')),
+            'ugreen-steam-deck-dock': ('£15', 3, ('attached host lead only', 'Front view')),
         }
         self.assertEqual(len(expected), 8)
         home = self.page('index.html')
