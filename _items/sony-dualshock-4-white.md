@@ -4,7 +4,7 @@ price: "5"
 currency: "£"
 estimated: true
 order: 26
-status: "available"
+status: pending
 category: "Gaming"
 condition: "Used; casing has visible marks and discolouration. Buttons, stick drift, charging and battery to confirm."
 location_note: "London, by arrangement."

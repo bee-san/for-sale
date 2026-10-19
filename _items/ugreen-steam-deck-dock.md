@@ -4,7 +4,7 @@ price: "7"
 currency: "£"
 estimated: true
 order: 23
-status: available
+status: pending
 category: "Gaming"
 condition: "Used; operation, charging and video output to confirm."
 location_note: "London, by arrangement."
