@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = os.environ.get('SALE_BASE_URL', '')
 ITEMS = {
     'lg-smart-monitor': ('LG 32SQ780S-W', '£160', 'power supply'),
-    'xbox-360-bundle': ('Xbox 360', '£30', 'region'),
+    'xbox-360-bundle': ('Xbox 360', '£25', 'region'),
     'digimon-vital-bracelet': ('Digimon Vital Bracelet', '£40', 'Black Roar'),
     'russell-hobbs-coffee-maker': ('Russell Hobbs', '£8', 'travel mug'),
     'lenovo-thinkpad-p51': ('Lenovo ThinkPad P51', '£180', 'i7-7820HQ'),
@@ -91,6 +91,22 @@ class SaleSiteTests(unittest.TestCase):
                 self.assertIn('/for-sale/items/' + slug + '/', page.links)
                 self.assertIn(title, text)
                 self.assertIn(price, text)
+
+    def test_reserved_items_are_pending_on_home_and_detail_pages(self):
+        home = get('index.html').decode()
+        reserved = ('xbox-360-bundle', 'sony-dualshock-4-white',
+                    'lg-smart-monitor', 'wd-red-3tb')
+        for slug in reserved:
+            with self.subTest(item=slug):
+                card = next(fragment for fragment in home.split('<article')
+                            if '/items/' + slug + '/' in fragment).split('</article>')[0]
+                self.assertIn('item-card--pending', card)
+                self.assertIn('Pending', ' '.join(Page(card).text))
+                detail = self.page(f'items/{slug}/index.html')
+                self.assertIn('Pending', ' '.join(detail.text))
+        xbox = ' '.join(self.page('items/xbox-360-bundle/index.html').text)
+        self.assertIn('Reserved at £25', xbox)
+        self.assertNotIn('£30', xbox)
 
     def test_all_details_have_price_photo_condition_and_real_enquiry(self):
         for slug, (title, price, detail) in ITEMS.items():

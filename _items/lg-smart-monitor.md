@@ -4,7 +4,7 @@ price: "160"
 currency: "£"
 estimated: true
 order: 1
-status: available
+status: pending
 category: "Desk & display"
 condition: "Used; working condition to confirm."
 location_note: "London, by arrangement."

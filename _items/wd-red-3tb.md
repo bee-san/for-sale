@@ -4,7 +4,7 @@ price: "30"
 currency: "£"
 estimated: true
 order: 19
-status: available
+status: pending
 category: "Computers"
 condition: "Used; SMART health, power-on hours and read/write testing unconfirmed."
 location_note: "London, by arrangement."

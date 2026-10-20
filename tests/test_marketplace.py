@@ -8,7 +8,7 @@ from test_site import Page, get
 
 ROOT = Path(__file__).resolve().parents[1]
 ASKING_PRICES = {
-    'lg-smart-monitor': 160, 'xbox-360-bundle': 30,
+    'lg-smart-monitor': 160, 'xbox-360-bundle': 25,
     'digimon-vital-bracelet': 40, 'russell-hobbs-coffee-maker': 8,
     'lenovo-thinkpad-p51': 180, 'jurassic-park': 4, 'emperor-of-rome': 10,
     'short-stories-japanese-intermediate': 6, 'dandadan-vol-1-japanese': 6,

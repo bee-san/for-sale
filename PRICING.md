@@ -1,6 +1,10 @@
 # Pricing notes
 
-## Current market-reviewed asking prices
+## Reservation update
+
+The Xbox 360 bundle is reserved at £25, replacing the £30 asking price from the review below. The LG 4K monitor, WD Red 3TB hard drive and white DualShock 4 controller are also marked pending. These are reservations, not completed sales. Other prices are unchanged.
+
+## Market-reviewed asking prices before the reservation update
 
 Reviewed 19 October 2026. The goal is a practical asking price a little below the closest useful market reference so the items can sell, not an appraisal or a promise of sale. Completed sales are stronger evidence than live asks. For several niche items there is only one, mismatched or no reliable UK sold comparable; those prices are low-confidence estimates, not statistically calculated averages. Condition, missing accessories, untested operation and import/compatibility limits are reflected where known. Prices exclude postage and marketplace fees.
 
