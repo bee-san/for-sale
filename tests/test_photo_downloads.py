@@ -109,6 +109,9 @@ class PhotoDownloadSourceTests(unittest.TestCase):
 class DownloadPage(Page):
     def __init__(self, source):
         self.downloads = []
+        self.previews = []
+        self.photo_images = []
+        self.current_preview = None
         self.current_item = None
         super().__init__(source)
 
@@ -119,13 +122,46 @@ class DownloadPage(Page):
             self.current_item = values['id'].removeprefix('draft-')
         if tag == 'a' and 'download' in values:
             self.downloads.append((self.current_item, values))
+        if tag == 'a' and 'data-photo-preview' in values:
+            self.current_preview = values
+            self.previews.append((self.current_item, values))
+        if tag == 'img' and self.current_item:
+            self.photo_images.append((self.current_item, self.current_preview, values))
 
     def handle_endtag(self, tag):
+        if tag == 'a':
+            self.current_preview = None
         if tag == 'details':
             self.current_item = None
 
 
 class PhotoDownloadRenderedTests(unittest.TestCase):
+    def test_every_draft_shows_native_images_for_android_long_press(self):
+        expected = expected_photos()
+        page = DownloadPage(get('vinted/index.html').decode())
+        self.assertEqual(len(page.photo_images), sum(map(len, expected.values())))
+        self.assertEqual(len(page.previews), len(page.photo_images))
+        for slug, photos in expected.items():
+            with self.subTest(item=slug):
+                images = [(anchor, image) for owner, anchor, image in page.photo_images if owner == slug]
+                self.assertEqual([image['src'] for _, image in images], ['/for-sale' + p for p in photos])
+                for anchor, image in images:
+                    self.assertIsNotNone(anchor, 'Photo must open the original image without a ZIP')
+                    self.assertEqual(anchor['href'], image['src'])
+                    self.assertNotIn('download', anchor, 'Opening full size must not force a download')
+                    self.assertTrue(image.get('alt'))
+                    self.assertEqual(image.get('loading'), 'lazy')
+                    for attrs in (anchor, image):
+                        self.assertNotIn('oncontextmenu', attrs)
+                        self.assertNotIn('ontouchstart', attrs)
+                        self.assertNotIn('onclick', attrs)
+                    self.assertNotEqual(image.get('draggable'), 'false')
+                singles = [attrs for owner, attrs in page.downloads if owner == slug and 'data-photo-file' in attrs]
+                self.assertEqual([a['href'] for a in singles], ['/for-sale' + p for p in photos])
+        text = ' '.join(' '.join(page.text).split()).lower()
+        for instruction in ('android', 'touch and hold', 'download photo', 'no zip needed'):
+            self.assertIn(instruction, text)
+
     def test_every_vinted_item_has_its_own_zip_and_individual_photo_downloads(self):
         expected = expected_photos()
         page = DownloadPage(get('vinted/index.html').decode())

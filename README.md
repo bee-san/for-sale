@@ -13,7 +13,7 @@ The site contains photographed electronics, home items, books and Japanese publi
 
 Open **https://bee-san.github.io/for-sale/vinted/** for a title, description and current GBP asking price for every item. Each field has its own Copy button and a selectable-text fallback when clipboard access is blocked. Nothing is posted to Vinted automatically.
 
-Each item also has a **Download images** ZIP button and individual photo download links; the page has an all-photos ZIP with a folder for each item. Unzip bundles before selecting images in Vinted. Only the already-public, privacy-cleaned photos are included.
+Each item shows its photos directly with a **Download photo** button for every image. On Android, touch and hold a photo for the browser's image copy/save options, or tap it to open the original full-size image. No ZIP is needed. Optional per-item and all-photos ZIP links remain available; unzip those bundles before selecting images in Vinted. Only the already-public, privacy-cleaned photos are included.
 
 After adding or changing listing photos, regenerate the committed bundles and manifest:
 
