@@ -94,8 +94,12 @@ figcaption { padding: 0.75rem 1rem; background: var(--surface); }
 .sold-items { margin-block: 2rem; padding: 1rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-surface); }
 .sold-items summary { cursor: pointer; font-weight: var(--weight-medium); }
 .item-grid--sold { margin-bottom: 0; }
-.photo-downloads__files { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; padding: 0; list-style: none; }
 .photo-downloads { padding-block: 0.5rem; border-block: 1px solid var(--border); }
+.photo-downloads__gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1.25rem; margin-block: 1rem; }
+.photo-downloads__photo { margin: 0; min-width: 0; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--surface-muted); }
+.photo-downloads__photo > a { display: block; }
+.photo-downloads__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; border-radius: var(--radius-control) var(--radius-control) 0 0; }
+.photo-downloads__photo figcaption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; border-radius: 0 0 var(--radius-control) var(--radius-control); }
 .draft-nav { display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; margin-block: 1.5rem; }
 .copy-status { padding: 0.75rem 1rem; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--surface); font-size: var(--font-small); }
 .draft-group { margin-block: 2.5rem; }

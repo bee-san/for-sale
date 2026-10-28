@@ -14,8 +14,8 @@ permalink: /vinted/
 <nav class="draft-nav" aria-label="Draft groups">
   <a href="#ready">Ready to copy</a><a href="#check">Check before listing</a><a href="#other">Use another marketplace</a>
 </nav>
-<p><a class="button" href="{{ site.data.photo_downloads.all_archive | relative_url }}" download="all-listing-photos.zip" data-all-photos>Download all images (ZIP)</a></p>
-<p class="contact-caption">Unzip downloaded bundles before uploading the photos to Vinted. You can also download individual photos inside each item below. Downloads contain only the privacy-cleaned public photos.</p>
+<p>On Android, touch and hold a photo for your browser's copy/save options, or tap <strong>Download photo</strong>. Tap a photo to open it full size. No ZIP needed.</p>
+<p class="contact-caption">Only the privacy-cleaned public photos are shown. Optional: <a href="{{ site.data.photo_downloads.all_archive | relative_url }}" download="all-listing-photos.zip" data-all-photos>download all images as a ZIP</a>. Unzip bundles before uploading to Vinted.</p>
 <p id="copy-status" class="copy-status" role="status" aria-live="polite">Select a Copy button, or select the text manually.</p>
 {% assign groups = 'ready,check,other' | split: ',' %}
 {% for group in groups %}
@@ -32,11 +32,15 @@ permalink: /vinted/
       <p><a href="{{ listing.url | relative_url }}">View original listing and photos</a></p>
       {% assign album = site.data.photo_downloads.items[draft.slug] %}
       <div class="photo-downloads">
-        <p><a class="button" href="{{ album.archive | relative_url }}" download="{{ draft.slug }}-photos.zip" data-photo-archive>Download images ({{ album.count }} {% if album.count == 1 %}photo{% else %}photos{% endif %}, ZIP)</a></p>
-        <p class="contact-caption">Or download individually:</p>
-        <ul class="photo-downloads__files" aria-label="Individual photos for {{ draft.title | escape }}">
-          {% for photo in album.photos %}<li><a href="{{ photo | relative_url }}" download="{{ draft.slug }}-{{ forloop.index | prepend: '0' | slice: -2, 2 }}.{{ photo | split: '.' | last }}" data-photo-file>Photo {{ forloop.index }}</a></li>{% endfor %}
-        </ul>
+        <div class="photo-downloads__gallery" role="group" aria-label="Photos for {{ draft.title | escape }}">
+          {% for photo in album.photos %}
+          <figure class="photo-downloads__photo">
+            <a href="{{ photo | relative_url }}" aria-label="Open photo {{ forloop.index }} of {{ draft.title | escape }} full size" data-photo-preview><img src="{{ photo | relative_url }}" alt="{{ draft.title | escape }}, photo {{ forloop.index }}" loading="lazy" decoding="async"></a>
+            <figcaption><span>Photo {{ forloop.index }} of {{ album.count }}</span><a class="button" href="{{ photo | relative_url }}" download="{{ draft.slug }}-{{ forloop.index | prepend: '0' | slice: -2, 2 }}.{{ photo | split: '.' | last }}" aria-label="Download photo {{ forloop.index }} of {{ draft.title | escape }}" data-photo-file>Download photo</a></figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+        <p class="contact-caption">Optional: <a href="{{ album.archive | relative_url }}" download="{{ draft.slug }}-photos.zip" data-photo-archive>download these {{ album.count }} {% if album.count == 1 %}photo{% else %}photos{% endif %} as a ZIP</a>.</p>
       </div>
       <div class="copy-field">
         <div class="copy-field__heading"><label for="title-{{ draft.slug }}">Title</label><button class="button" type="button" data-copy-target="title-{{ draft.slug }}">Copy title</button></div>
