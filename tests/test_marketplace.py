@@ -120,6 +120,19 @@ class CopyPage(Page):
 
 
 class MarketplaceRenderedTests(unittest.TestCase):
+    def test_requested_controller_and_tape_measure_drafts_are_expanded(self):
+        source = get('vinted/index.html').decode()
+        for slug in ('sony-dualshock-4-white', 'renpho-smart-tape-measure'):
+            with self.subTest(item=slug):
+                details = re.search(r'<details\b[^>]*\bid="draft-' + slug + r'"[^>]*>', source)
+                self.assertIsNotNone(details)
+                assert details is not None
+                self.assertRegex(details[0], r'\bopen(?:\s|=|>)', 'Requested drafts must be visible without expanding them')
+                fragment = source.split('id="draft-' + slug + '"', 1)[1].split('</details>', 1)[0]
+                self.assertIn('unconfirmed', ' '.join(Page(fragment).text).lower())
+                self.assertIn('data-photo-file', fragment)
+                self.assertIn('data-copy-target="description-' + slug + '"', fragment)
+
     def test_copy_page_contains_all_titles_descriptions_and_current_prices(self):
         page = CopyPage(get('vinted/index.html').decode())
         manifest = json.loads(get('vinted/manifest.json'))

@@ -25,7 +25,7 @@ permalink: /vinted/
   {% if group == 'ready' %}<p>Start here. Inspect each item, add your own photos and select the condition that matches it.</p>{% elsif group == 'check' %}<p>Drafts are prepared, but these are not cleared for publication yet. Complete the tests, contents and category checks shown for each item first. Do not select a working condition without testing.</p>{% else %}<p>Copy is provided for completeness, but these are not recommended as Vinted-ready listings. Use a suitable alternative unless Vinted confirms eligibility and the item meets its rules.</p>{% endif %}
   {% for draft in drafts %}
   {% assign listing = site.items | where: 'slug', draft.slug | first %}
-  <details class="draft-card" id="draft-{{ draft.slug }}"{% if group == 'ready' %} open{% endif %}>
+  <details class="draft-card" id="draft-{{ draft.slug }}"{% if group == 'ready' or draft.expanded %} open{% endif %}>
     <summary><span>{{ draft.title | escape }}</span><strong>£{{ listing.price | escape }}</strong></summary>
     <div class="draft-card__body">
       <p class="draft-reason">{{ draft.reason | escape }}</p>
