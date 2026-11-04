@@ -1,5 +1,7 @@
 # Bee's London clear-out
 
+[![Discord](https://img.shields.io/discord/754001738184392704?logo=discord&label=Discord)](https://discord.skerritt.blog)
+
 A small, static GitHub Pages + Jekyll site for personal sale listings.
 
 - **Live site:** https://bee-san.github.io/for-sale/
